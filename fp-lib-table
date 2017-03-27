@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 3ML_Footprint_Library)(type KiCad)(uri "$(KIPRJMOD)/Hardware Libraries/Components/3ML_Footprint_Library.pretty")(options "")(descr ""))
+)

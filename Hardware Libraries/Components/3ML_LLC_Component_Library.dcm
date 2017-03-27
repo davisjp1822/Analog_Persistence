@@ -1,0 +1,147 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +24VP
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V_PI
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_PI
+K POWER, PWR
+$ENDCMP
+#
+$CMP ACC_?
+D Accessory 
+$ENDCMP
+#
+$CMP AD8220
+D Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP
+K opamp, diffamp, instrumentation amp
+$ENDCMP
+#
+$CMP AMP_RJHSE-5080
+D Amphenol RJHSE-5080 RJ45
+K connector
+$ENDCMP
+#
+$CMP DS3231SN#T&R
+D DS3231SN RTC
+K realtime clock, clock, rtc
+$ENDCMP
+#
+$CMP EYSGJNAWY-1X
+D Bluetooth Smart Module - BT 4.2 LE
+K bluetooth
+$ENDCMP
+#
+$CMP ICL7660S,A
+D Charge Pump Switching Regulator
+$ENDCMP
+#
+$CMP ISO1541
+D ISO154x Low-Power Bidirectional I2C Isolators
+K i2c, isolator
+$ENDCMP
+#
+$CMP ISO7221A
+D ISO7221A Dual Channel Digital Isolators
+K isolator, isolation
+$ENDCMP
+#
+$CMP ISO7340C
+D ISO734x Robust EMC, LowPower, Quad-Channel Digital Isolators
+K isolation
+$ENDCMP
+#
+$CMP LP2981A-50
+D 100-mA Ultra-Low Dropout Regulators With Shutdown
+K LDO
+$ENDCMP
+#
+$CMP MAX3221
+D MAX3221 3-V to 5.5-V RS-232 Line Driver and Receiver
+K RS232
+$ENDCMP
+#
+$CMP MCP3008-I/SL
+D MCP3008-I/SL 10 bit 8-channel ADC, SOIC 16
+K ADC, 10bit, 8 channel
+$ENDCMP
+#
+$CMP MCP3424
+D MCP3424 4 channel 18bit I2C ADC
+K adc
+$ENDCMP
+#
+$CMP MOCD213M
+D MOCD213M
+K opto
+$ENDCMP
+#
+$CMP MOCD223M
+D MOCD223M, DC Darlington Optocoupler, 2500k Iso, CTR 500%
+K NPN Darlington DC Optocoupler
+$ENDCMP
+#
+$CMP MPM3620GQV-P
+D MPM3620GQV-P DC-DC Power Converter
+K dc-dc converter 
+$ENDCMP
+#
+$CMP PCONN_01X02
+D Power Connector 01x02
+$ENDCMP
+#
+$CMP QUAD_OPTO
+D Quad Opto
+K opto
+$ENDCMP
+#
+$CMP RPi_2_B_GPIO
+D Raspberry Pi 2 Model B v1.1 GPIO Identification
+K gpio, rpi, raspberry
+$ENDCMP
+#
+$CMP SN6501
+D SN6501 Transformer Driver for Isolated Power Supplies
+K isolated, transformer
+$ENDCMP
+#
+$CMP SN65HVS880
+D TI 8 input, nominal 24V digital-input serializer for industrial digital inputs
+K input serializer
+$ENDCMP
+#
+$CMP SPDT
+D Relay SPDT
+K relay,spst
+$ENDCMP
+#
+$CMP SPST-NO
+D Relay SPST-NO
+K relay,spst
+$ENDCMP
+#
+$CMP TPS54341
+D TI 4.5 to 42V Input 3.5A Step-Down DC-DC Converter
+K dc-dc, converter, buck
+$ENDCMP
+#
+$CMP TVS_Small
+D Transient voltage suppressor diode (bi-directional)
+K DEV TVS TRANSIENT SUPPROESSOR ESD
+$ENDCMP
+#
+$CMP Wurth_750313638
+D Wurth 750313638 Transformer
+K transformer
+$ENDCMP
+#
+$CMP Wurth_760390014
+D Wurth 760390014 Transformer
+K transformer
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+(module RPi_3mmx6mm_Mounting_Hole (layer F.Cu) (tedit 56E75A7C)
+  (fp_text reference REF** (at 0 6.9) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value RPi_3mmx6mm_Mounting_Hole (at 0 4.9) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask F.SilkS))
+)

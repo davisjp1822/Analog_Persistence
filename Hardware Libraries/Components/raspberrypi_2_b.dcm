@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ChronoDot_v2.1
+D Chronodot v2.1
+K rtc,clock
+$ENDCMP
+#
+$CMP RPi_2_B_GPIO
+D Raspberry Pi 2 Model B v1.1 GPIO Identification
+K gpio, rpi, raspberry
+$ENDCMP
+#
+#End Doc Library
