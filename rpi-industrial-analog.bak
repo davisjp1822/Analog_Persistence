@@ -124,20 +124,20 @@ $EndComp
 $Comp
 L CONN_01X08 J102
 U 1 1 58D82737
-P 11100 4150
-F 0 "J102" H 11100 4600 50  0000 C CNN
-F 1 "CONN_01X08" V 11200 4150 50  0000 C CNN
-F 2 "3ML_Footprint_Library:1935226" H 11100 4150 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935226.pdf" H 11100 4150 50  0001 C CNN
-F 4 "1935226" H 11100 4150 60  0001 C CNN "MPN"
-F 5 "Phoenix Contact" H 11100 4150 60  0001 C CNN "MFN"
-F 6 "X" H 11100 4150 60  0001 C CNN "Characteristics"
-F 7 "8 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole" H 11100 4150 60  0001 C CNN "Description"
-F 8 "TH" H 11100 4150 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 11100 4150 60  0001 C CNN "Source"
-F 10 "Y" H 11100 4150 60  0001 C CNN "Critical"
-F 11 "X" H 11100 4150 60  0001 C CNN "Notes"
-	1    11100 4150
+P 11300 3750
+F 0 "J102" H 11300 4200 50  0000 C CNN
+F 1 "CONN_01X08" V 11400 3750 50  0000 C CNN
+F 2 "3ML_Footprint_Library:1935226" H 11300 3750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935226.pdf" H 11300 3750 50  0001 C CNN
+F 4 "1935226" H 11300 3750 60  0001 C CNN "MPN"
+F 5 "Phoenix Contact" H 11300 3750 60  0001 C CNN "MFN"
+F 6 "X" H 11300 3750 60  0001 C CNN "Characteristics"
+F 7 "8 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole" H 11300 3750 60  0001 C CNN "Description"
+F 8 "TH" H 11300 3750 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 11300 3750 60  0001 C CNN "Source"
+F 10 "Y" H 11300 3750 60  0001 C CNN "Critical"
+F 11 "X" H 11300 3750 60  0001 C CNN "Notes"
+	1    11300 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -790,38 +790,38 @@ AIN1+
 Text Label 9000 2000 2    60   ~ 0
 AIN1-
 Wire Wire Line
-	10900 3800 10500 3800
+	11100 3400 10700 3400
 Wire Wire Line
-	10900 3900 10500 3900
+	11100 3500 10700 3500
 Wire Wire Line
-	10900 4000 10500 4000
+	11100 3600 10700 3600
 Wire Wire Line
-	10900 4100 10500 4100
+	11100 3700 10700 3700
 Wire Wire Line
-	10900 4200 10500 4200
+	11100 3800 10700 3800
 Wire Wire Line
-	10900 4300 10500 4300
+	11100 3900 10700 3900
 Wire Wire Line
-	10900 4400 10500 4400
+	11100 4000 10700 4000
 Wire Wire Line
-	10900 4500 10500 4500
-Text Label 10500 3800 0    60   ~ 0
+	11100 4100 10700 4100
+Text Label 10700 3400 0    60   ~ 0
 AIN1+
-Text Label 10500 3900 0    60   ~ 0
+Text Label 10700 3500 0    60   ~ 0
 AIN1-
-Text Label 10500 4000 0    60   ~ 0
+Text Label 10700 3600 0    60   ~ 0
 AIN2+
-Text Label 10500 4100 0    60   ~ 0
+Text Label 10700 3700 0    60   ~ 0
 AIN2-
-Text Label 10500 4200 0    60   ~ 0
+Text Label 10700 3800 0    60   ~ 0
 AIN3+
-Text Label 10500 4300 0    60   ~ 0
+Text Label 10700 3900 0    60   ~ 0
 AIN3-
-Text Label 10500 4400 0    60   ~ 0
+Text Label 10700 4000 0    60   ~ 0
 AIN4+
-Text Label 10500 4500 0    60   ~ 0
+Text Label 10700 4100 0    60   ~ 0
 AIN4-
-Text Notes 10400 3450 0    60   ~ 0
+Text Notes 10600 3050 0    60   ~ 0
 FIELD CONNECTIONS
 $Comp
 L C_Small C110
@@ -2240,6 +2240,17 @@ F 9 "Digikey" H 7950 1200 60  0001 C CNN "Source"
 F 10 "Y" H 7950 1200 60  0001 C CNN "Critical"
 F 11 "X" H 7950 1200 60  0001 C CNN "Notes"
 	1    7950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3ML_LOGO LG101
+U 1 1 58D9BA61
+P 10800 4450
+F 0 "LG101" H 10810 4590 60  0001 C CNN
+F 1 "3ML_LOGO" H 10800 4310 60  0001 C CNN
+F 2 "" H 10800 4450 60  0000 C CNN
+F 3 "" H 10800 4450 60  0000 C CNN
+	1    10800 4450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
