@@ -108,17 +108,18 @@ L ICL7660S,A U102
 U 1 1 58D8256E
 P 2300 6250
 F 0 "U102" H 1950 6700 60  0000 C CNN
-F 1 "ICL7660S,A" H 2300 5850 60  0000 C CNN
+F 1 "ICL7660S A" H 2300 5850 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2300 6250 60  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/icl7/icl7660s-a.pdf" H 2300 6250 60  0001 C CNN
-F 4 "ICL7660AIBAZA" H 2300 6250 60  0001 C CNN "MPN"
-F 5 "Intersil" H 2300 6250 60  0001 C CNN "MFN"
-F 6 "X" H 2300 6250 60  0001 C CNN "Characteristics"
-F 7 "IC REG SWTCHD CAP INV 45MA 8SOIC" H 2300 6250 60  0001 C CNN "Description"
-F 8 "8-SOIC" H 2300 6250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 2300 6250 60  0001 C CNN "Source"
-F 10 "Y" H 2300 6250 60  0001 C CNN "Critical"
-F 11 "X" H 2300 6250 60  0001 C CNN "Notes"
+F 4 "X" H 2300 6250 60  0001 C CNN "Characteristics"
+F 5 "IC REG SWTCHD CAP INV 45MA 8SOIC" H 2300 6250 60  0001 C CNN "Description"
+F 6 "Intersil" H 2300 6250 60  0001 C CNN "MFN"
+F 7 "8-SOIC" H 2300 6250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 2300 6250 60  0001 C CNN "Source"
+F 9 "Y" H 2300 6250 60  0001 C CNN "Critical"
+F 10 "X" H 2300 6250 60  0001 C CNN "Notes"
+F 11 "1" H 2300 6250 60  0001 C CNN "Populate"
+F 12 "ICL7660AIBAZA" H 2300 6250 60  0001 C CNN "MPN"
 	1    2300 6250
 	1    0    0    -1  
 $EndComp
@@ -428,15 +429,16 @@ P 8650 1800
 F 0 "C118" H 8660 1870 50  0000 L CNN
 F 1 "1nF HV" H 8750 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 8650 1800 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B102KECSNNC_character.pdf" H 8650 1800 50  0001 C CNN
-F 4 "CL21B102KECSNNC" H 8650 1800 60  0001 C CNN "MPN"
-F 5 "Samsung Electro-Mechanics America Inc." H 8650 1800 60  0001 C CNN "MFN"
-F 6 "X" H 8650 1800 60  0001 C CNN "Characteristics"
-F 7 "1000pF 250V Ceramic Capacitor X7R 0805" H 8650 1800 60  0001 C CNN "Description"
-F 8 "0805" H 8650 1800 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 8650 1800 60  0001 C CNN "Source"
-F 10 "Y" H 8650 1800 60  0001 C CNN "Critical"
-F 11 "X" H 8650 1800 60  0001 C CNN "Notes"
+F 3 "https://www.johansondielectrics.com/downloads/jdi-product-catalog.pdf" H 8650 1800 50  0001 C CNN
+F 4 "X" H 8650 1800 60  0001 C CNN "Characteristics"
+F 5 "CAP CER 1000PF 1KV X7R 0805" H 8650 1800 60  0001 C CNN "Description"
+F 6 "Johanson Dielectrics Inc." H 8650 1800 60  0001 C CNN "MFN"
+F 7 "0805" H 8650 1800 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 8650 1800 60  0001 C CNN "Source"
+F 9 "Y" H 8650 1800 60  0001 C CNN "Critical"
+F 10 "X" H 8650 1800 60  0001 C CNN "Notes"
+F 11 "1" H 8650 1800 60  0001 C CNN "Populate"
+F 12 "102R15W102KV4E" H 8650 1800 60  0001 C CNN "MPN"
 	1    8650 1800
 	1    0    0    -1  
 $EndComp
@@ -839,25 +841,6 @@ $EndComp
 NoConn ~ 7000 3550
 NoConn ~ 7000 3700
 $Comp
-L C_Small C119
-U 1 1 58D89105
-P 8650 3650
-F 0 "C119" H 8660 3720 50  0000 L CNN
-F 1 "1nF HV" H 8750 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 8650 3650 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B102KECSNNC_character.pdf" H 8650 3650 50  0001 C CNN
-F 4 "CL21B102KECSNNC" H 8650 3650 60  0001 C CNN "MPN"
-F 5 "Samsung Electro-Mechanics America Inc." H 8650 3650 60  0001 C CNN "MFN"
-F 6 "X" H 8650 3650 60  0001 C CNN "Characteristics"
-F 7 "1000pF 250V Ceramic Capacitor X7R 0805" H 8650 3650 60  0001 C CNN "Description"
-F 8 "0805" H 8650 3650 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 8650 3650 60  0001 C CNN "Source"
-F 10 "Y" H 8650 3650 60  0001 C CNN "Critical"
-F 11 "X" H 8650 3650 60  0001 C CNN "Notes"
-	1    8650 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L TVS_Small D108
 U 1 1 58D89117
 P 8350 3600
@@ -1092,25 +1075,6 @@ $EndComp
 NoConn ~ 7000 5400
 NoConn ~ 7000 5550
 $Comp
-L C_Small C120
-U 1 1 58D89624
-P 8650 5500
-F 0 "C120" H 8660 5570 50  0000 L CNN
-F 1 "1nF HV" H 8750 5500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 8650 5500 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B102KECSNNC_character.pdf" H 8650 5500 50  0001 C CNN
-F 4 "CL21B102KECSNNC" H 8650 5500 60  0001 C CNN "MPN"
-F 5 "Samsung Electro-Mechanics America Inc." H 8650 5500 60  0001 C CNN "MFN"
-F 6 "X" H 8650 5500 60  0001 C CNN "Characteristics"
-F 7 "1000pF 250V Ceramic Capacitor X7R 0805" H 8650 5500 60  0001 C CNN "Description"
-F 8 "0805" H 8650 5500 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 8650 5500 60  0001 C CNN "Source"
-F 10 "Y" H 8650 5500 60  0001 C CNN "Critical"
-F 11 "X" H 8650 5500 60  0001 C CNN "Notes"
-	1    8650 5500
-	1    0    0    -1  
-$EndComp
-$Comp
 L TVS_Small D109
 U 1 1 58D89636
 P 8350 5450
@@ -1325,25 +1289,6 @@ F 3 "" H 5950 7400 50  0001 C CNN
 $EndComp
 NoConn ~ 7000 7000
 NoConn ~ 7000 7150
-$Comp
-L C_Small C121
-U 1 1 58D8971B
-P 8650 7100
-F 0 "C121" H 8660 7170 50  0000 L CNN
-F 1 "1nF HV" H 8750 7100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 8650 7100 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B102KECSNNC_character.pdf" H 8650 7100 50  0001 C CNN
-F 4 "CL21B102KECSNNC" H 8650 7100 60  0001 C CNN "MPN"
-F 5 "Samsung Electro-Mechanics America Inc." H 8650 7100 60  0001 C CNN "MFN"
-F 6 "X" H 8650 7100 60  0001 C CNN "Characteristics"
-F 7 "1000pF 250V Ceramic Capacitor X7R 0805" H 8650 7100 60  0001 C CNN "Description"
-F 8 "0805" H 8650 7100 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 8650 7100 60  0001 C CNN "Source"
-F 10 "Y" H 8650 7100 60  0001 C CNN "Critical"
-F 11 "X" H 8650 7100 60  0001 C CNN "Notes"
-	1    8650 7100
-	1    0    0    -1  
-$EndComp
 $Comp
 L TVS_Small D110
 U 1 1 58D8972D
@@ -1653,7 +1598,7 @@ F 11 "X" H 11850 5650 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 Text Notes 10400 4900 0    60   ~ 0
-3ML LLC Logo
+3ML LLC / OSHW Logo
 Text Notes 10200 4500 0    60   ~ 0
 ACCESSORIES
 Text Notes 10400 5400 0    60   ~ 0
@@ -2292,15 +2237,16 @@ P 7050 2600
 F 0 "R103" V 6950 2600 50  0000 C CNN
 F 1 "1M" V 7050 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 6980 2600 50  0001 C CNN
-F 3 "" H 7050 2600 50  0001 C CNN
-F 4 "Value" H 7050 2600 60  0001 C CNN "Characteristics"
-F 5 "Value" H 7050 2600 60  0001 C CNN "Description"
-F 6 "Value" H 7050 2600 60  0001 C CNN "MFN"
-F 7 "Value" H 7050 2600 60  0001 C CNN "Package ID"
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7050 2600 50  0001 C CNN
+F 4 "X" H 7050 2600 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 1M OHM 5% 1/8W 0805" H 7050 2600 60  0001 C CNN "Description"
+F 6 "Stackpole Electronics Inc." H 7050 2600 60  0001 C CNN "MFN"
+F 7 "0805" H 7050 2600 60  0001 C CNN "Package ID"
 F 8 "Digikey" H 7050 2600 60  0001 C CNN "Source"
 F 9 "Y" H 7050 2600 60  0001 C CNN "Critical"
 F 10 "X" H 7050 2600 60  0001 C CNN "Notes"
 F 11 "1" H 7050 2600 60  0001 C CNN "Populate"
+F 12 "RMCF0805JT1M00" V 7050 2600 60  0001 C CNN "MFP"
 	1    7050 2600
 	1    0    0    -1  
 $EndComp
@@ -2320,66 +2266,9 @@ $EndComp
 Wire Wire Line
 	7050 3850 7050 4100
 Connection ~ 7050 3850
-$Comp
-L R R104
-U 1 1 597FB15F
-P 7050 4250
-F 0 "R104" V 6950 4250 50  0000 C CNN
-F 1 "1M" V 7050 4250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6980 4250 50  0001 C CNN
-F 3 "" H 7050 4250 50  0001 C CNN
-F 4 "Value" H 7050 4250 60  0001 C CNN "Characteristics"
-F 5 "Value" H 7050 4250 60  0001 C CNN "Description"
-F 6 "Value" H 7050 4250 60  0001 C CNN "MFN"
-F 7 "Value" H 7050 4250 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 7050 4250 60  0001 C CNN "Source"
-F 9 "Y" H 7050 4250 60  0001 C CNN "Critical"
-F 10 "X" H 7050 4250 60  0001 C CNN "Notes"
-F 11 "1" H 7050 4250 60  0001 C CNN "Populate"
-	1    7050 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 5700 7050 5900
 Connection ~ 7050 5700
-$Comp
-L R R105
-U 1 1 597FBA7A
-P 7050 6050
-F 0 "R105" V 6950 6050 50  0000 C CNN
-F 1 "1M" V 7050 6050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6980 6050 50  0001 C CNN
-F 3 "" H 7050 6050 50  0001 C CNN
-F 4 "Value" H 7050 6050 60  0001 C CNN "Characteristics"
-F 5 "Value" H 7050 6050 60  0001 C CNN "Description"
-F 6 "Value" H 7050 6050 60  0001 C CNN "MFN"
-F 7 "Value" H 7050 6050 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 7050 6050 60  0001 C CNN "Source"
-F 9 "Y" H 7050 6050 60  0001 C CNN "Critical"
-F 10 "X" H 7050 6050 60  0001 C CNN "Notes"
-F 11 "1" H 7050 6050 60  0001 C CNN "Populate"
-	1    7050 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R106
-U 1 1 597FC604
-P 7050 7600
-F 0 "R106" V 6950 7600 50  0000 C CNN
-F 1 "1M" V 7050 7600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6980 7600 50  0001 C CNN
-F 3 "" H 7050 7600 50  0001 C CNN
-F 4 "Value" H 7050 7600 60  0001 C CNN "Characteristics"
-F 5 "Value" H 7050 7600 60  0001 C CNN "Description"
-F 6 "Value" H 7050 7600 60  0001 C CNN "MFN"
-F 7 "Value" H 7050 7600 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 7050 7600 60  0001 C CNN "Source"
-F 9 "Y" H 7050 7600 60  0001 C CNN "Critical"
-F 10 "X" H 7050 7600 60  0001 C CNN "Notes"
-F 11 "1" H 7050 7600 60  0001 C CNN "Populate"
-	1    7050 7600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 4400 7050 4450
 $Comp
@@ -2442,10 +2331,10 @@ Wire Wire Line
 	7050 7450 7050 7300
 Connection ~ 7050 7300
 $Comp
-L D_Schottky_Small_ALT D?
+L D_Schottky_Small_ALT D111
 U 1 1 598118D8
 P 5550 1350
-F 0 "D?" H 5500 1430 50  0000 L CNN
+F 0 "D111" H 5500 1430 50  0000 L CNN
 F 1 "D_Schottky_Small_ALT" H 5270 1270 50  0001 L CNN
 F 2 "Diodes_SMD:D_SOD-323" V 5550 1350 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF" V 5550 1350 50  0001 C CNN
@@ -2469,10 +2358,10 @@ Wire Wire Line
 	5550 750  5400 750 
 Connection ~ 5400 750 
 $Comp
-L D_Schottky_Small_ALT D?
+L D_Schottky_Small_ALT D112
 U 1 1 59812304
 P 5600 3100
-F 0 "D?" H 5550 3180 50  0000 L CNN
+F 0 "D112" H 5550 3180 50  0000 L CNN
 F 1 "D_Schottky_Small_ALT" H 5320 3020 50  0001 L CNN
 F 2 "Diodes_SMD:D_SOD-323" V 5600 3100 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF" V 5600 3100 50  0001 C CNN
@@ -2488,18 +2377,15 @@ F 11 "X" H 5600 3100 60  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5600 3200 5600 3400
-Connection ~ 5600 3400
-Wire Wire Line
 	5600 3000 5600 2400
 Wire Wire Line
 	5600 2400 5400 2400
 Connection ~ 5400 2400
 $Comp
-L D_Schottky_Small_ALT D?
+L D_Schottky_Small_ALT D114
 U 1 1 59812ED5
 P 5650 5000
-F 0 "D?" H 5600 5080 50  0000 L CNN
+F 0 "D114" H 5600 5080 50  0000 L CNN
 F 1 "D_Schottky_Small_ALT" H 5370 4920 50  0001 L CNN
 F 2 "Diodes_SMD:D_SOD-323" V 5650 5000 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF" V 5650 5000 50  0001 C CNN
@@ -2515,18 +2401,15 @@ F 11 "X" H 5650 5000 60  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5650 5100 5650 5250
-Connection ~ 5650 5250
-Wire Wire Line
 	5650 4900 5650 4450
 Wire Wire Line
 	5650 4450 5400 4450
 Connection ~ 5400 4450
 $Comp
-L D_Schottky_Small_ALT D?
+L D_Schottky_Small_ALT D113
 U 1 1 59813B7D
 P 5600 6500
-F 0 "D?" H 5550 6580 50  0000 L CNN
+F 0 "D113" H 5550 6580 50  0000 L CNN
 F 1 "D_Schottky_Small_ALT" H 5320 6420 50  0001 L CNN
 F 2 "Diodes_SMD:D_SOD-323" V 5600 6500 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF" V 5600 6500 50  0001 C CNN
@@ -2542,11 +2425,158 @@ F 11 "X" H 5600 6500 60  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5600 6600 5600 6850
-Connection ~ 5600 6850
-Wire Wire Line
 	5600 6400 5600 6100
 Wire Wire Line
 	5600 6100 5400 6100
 Connection ~ 5400 6100
+Text Label 5750 1550 1    60   ~ 0
+OP_AMP_5V
+Wire Wire Line
+	5600 3200 5600 3550
+Connection ~ 5600 3550
+Wire Wire Line
+	5650 5100 5650 5400
+Connection ~ 5650 5400
+Wire Wire Line
+	5600 6600 5600 7000
+Connection ~ 5600 7000
+$Comp
+L ACC_? ACC109
+U 1 1 59814E6D
+P 10850 5050
+F 0 "ACC109" H 10860 5190 60  0001 C CNN
+F 1 "ACC_?" H 10850 4910 60  0001 C CNN
+F 2 "Symbols:OSHW-Logo_11.4x12mm_SilkScreen" H 10850 5050 60  0001 C CNN
+F 3 "" H 10850 5050 60  0000 C CNN
+F 4 "Value" H 10850 5050 60  0001 C CNN "Characteristics"
+F 5 "Value" H 10850 5050 60  0001 C CNN "Description"
+F 6 "Value" H 10850 5050 60  0001 C CNN "MFN"
+F 7 "Value" H 10850 5050 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 10850 5050 60  0001 C CNN "Source"
+F 9 "Y" H 10850 5050 60  0001 C CNN "Critical"
+F 10 "X" H 10850 5050 60  0001 C CNN "Notes"
+F 11 "1" H 10850 5050 60  0001 C CNN "Populate"
+	1    10850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C119
+U 1 1 59826D65
+P 8650 3650
+F 0 "C119" H 8660 3720 50  0000 L CNN
+F 1 "1nF HV" H 8750 3650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8650 3650 50  0001 C CNN
+F 3 "https://www.johansondielectrics.com/downloads/jdi-product-catalog.pdf" H 8650 3650 50  0001 C CNN
+F 4 "X" H 8650 3650 60  0001 C CNN "Characteristics"
+F 5 "CAP CER 1000PF 1KV X7R 0805" H 8650 3650 60  0001 C CNN "Description"
+F 6 "Johanson Dielectrics Inc." H 8650 3650 60  0001 C CNN "MFN"
+F 7 "0805" H 8650 3650 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 8650 3650 60  0001 C CNN "Source"
+F 9 "Y" H 8650 3650 60  0001 C CNN "Critical"
+F 10 "X" H 8650 3650 60  0001 C CNN "Notes"
+F 11 "1" H 8650 3650 60  0001 C CNN "Populate"
+F 12 "102R15W102KV4E" H 8650 3650 60  0001 C CNN "MPN"
+	1    8650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C120
+U 1 1 59826F78
+P 8650 5500
+F 0 "C120" H 8660 5570 50  0000 L CNN
+F 1 "1nF HV" H 8750 5500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8650 5500 50  0001 C CNN
+F 3 "https://www.johansondielectrics.com/downloads/jdi-product-catalog.pdf" H 8650 5500 50  0001 C CNN
+F 4 "X" H 8650 5500 60  0001 C CNN "Characteristics"
+F 5 "CAP CER 1000PF 1KV X7R 0805" H 8650 5500 60  0001 C CNN "Description"
+F 6 "Johanson Dielectrics Inc." H 8650 5500 60  0001 C CNN "MFN"
+F 7 "0805" H 8650 5500 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 8650 5500 60  0001 C CNN "Source"
+F 9 "Y" H 8650 5500 60  0001 C CNN "Critical"
+F 10 "X" H 8650 5500 60  0001 C CNN "Notes"
+F 11 "1" H 8650 5500 60  0001 C CNN "Populate"
+F 12 "102R15W102KV4E" H 8650 5500 60  0001 C CNN "MPN"
+	1    8650 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C121
+U 1 1 59827093
+P 8650 7100
+F 0 "C121" H 8660 7170 50  0000 L CNN
+F 1 "1nF HV" H 8750 7100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8650 7100 50  0001 C CNN
+F 3 "https://www.johansondielectrics.com/downloads/jdi-product-catalog.pdf" H 8650 7100 50  0001 C CNN
+F 4 "X" H 8650 7100 60  0001 C CNN "Characteristics"
+F 5 "CAP CER 1000PF 1KV X7R 0805" H 8650 7100 60  0001 C CNN "Description"
+F 6 "Johanson Dielectrics Inc." H 8650 7100 60  0001 C CNN "MFN"
+F 7 "0805" H 8650 7100 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 8650 7100 60  0001 C CNN "Source"
+F 9 "Y" H 8650 7100 60  0001 C CNN "Critical"
+F 10 "X" H 8650 7100 60  0001 C CNN "Notes"
+F 11 "1" H 8650 7100 60  0001 C CNN "Populate"
+F 12 "102R15W102KV4E" H 8650 7100 60  0001 C CNN "MPN"
+	1    8650 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R104
+U 1 1 59829CB9
+P 7050 4250
+F 0 "R104" V 6950 4250 50  0000 C CNN
+F 1 "1M" V 7050 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6980 4250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7050 4250 50  0001 C CNN
+F 4 "X" H 7050 4250 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 1M OHM 5% 1/8W 0805" H 7050 4250 60  0001 C CNN "Description"
+F 6 "Stackpole Electronics Inc." H 7050 4250 60  0001 C CNN "MFN"
+F 7 "0805" H 7050 4250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7050 4250 60  0001 C CNN "Source"
+F 9 "Y" H 7050 4250 60  0001 C CNN "Critical"
+F 10 "X" H 7050 4250 60  0001 C CNN "Notes"
+F 11 "1" H 7050 4250 60  0001 C CNN "Populate"
+F 12 "RMCF0805JT1M00" V 7050 4250 60  0001 C CNN "MFP"
+	1    7050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R105
+U 1 1 59829E84
+P 7050 6050
+F 0 "R105" V 6950 6050 50  0000 C CNN
+F 1 "1M" V 7050 6050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6980 6050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7050 6050 50  0001 C CNN
+F 4 "X" H 7050 6050 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 1M OHM 5% 1/8W 0805" H 7050 6050 60  0001 C CNN "Description"
+F 6 "Stackpole Electronics Inc." H 7050 6050 60  0001 C CNN "MFN"
+F 7 "0805" H 7050 6050 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7050 6050 60  0001 C CNN "Source"
+F 9 "Y" H 7050 6050 60  0001 C CNN "Critical"
+F 10 "X" H 7050 6050 60  0001 C CNN "Notes"
+F 11 "1" H 7050 6050 60  0001 C CNN "Populate"
+F 12 "RMCF0805JT1M00" V 7050 6050 60  0001 C CNN "MFP"
+	1    7050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R106
+U 1 1 59829FA9
+P 7050 7600
+F 0 "R106" V 6950 7600 50  0000 C CNN
+F 1 "1M" V 7050 7600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6980 7600 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7050 7600 50  0001 C CNN
+F 4 "X" H 7050 7600 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 1M OHM 5% 1/8W 0805" H 7050 7600 60  0001 C CNN "Description"
+F 6 "Stackpole Electronics Inc." H 7050 7600 60  0001 C CNN "MFN"
+F 7 "0805" H 7050 7600 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7050 7600 60  0001 C CNN "Source"
+F 9 "Y" H 7050 7600 60  0001 C CNN "Critical"
+F 10 "X" H 7050 7600 60  0001 C CNN "Notes"
+F 11 "1" H 7050 7600 60  0001 C CNN "Populate"
+F 12 "RMCF0805JT1M00" V 7050 7600 60  0001 C CNN "MFP"
+	1    7050 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

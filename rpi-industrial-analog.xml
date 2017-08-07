@@ -1,0 +1,1974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/davisjp/OneDrive/Development/rpi-industrial-analog/rpi-industrial-analog.sch</source>
+    <date>Wednesday, August 02, 2017 'PMt' 08:20:17 PM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Analog Persistence v1.0</title>
+        <company>ThreeML LLC</company>
+        <rev>A</rev>
+        <date>7/31/2017</date>
+        <source>rpi-industrial-analog.sch</source>
+        <comment number="1" value="www.three-ml.com"/>
+        <comment number="2" value="John Davis"/>
+        <comment number="3" value="RELEASED"/>
+        <comment number="4" value="Licensed under the GPL v3"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J101">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">1x4 0.100 PITCH PIN HEADER</field>
+        <field name="MFN">Harwin</field>
+        <field name="Package ID">TH</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">M20-9990445</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D81C26</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>MCP3424</value>
+      <footprint>Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22088c.pdf</datasheet>
+      <fields>
+        <field name="MPN">MCP3424-E/SL</field>
+        <field name="MFN">Microchip Technology</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">18 Bit Analog to Digital Converter 4 Input 1 Sigma-Delta 14-SOIC</field>
+        <field name="Package ID">14-SOIC</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="MCP3424"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D81EDC</tstamp>
+    </comp>
+    <comp ref="U103">
+      <value>AD8220</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8220.pdf</datasheet>
+      <fields>
+        <field name="MPN">AD8220ARMZ</field>
+        <field name="MFN">Analog Devices Inc</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP</field>
+        <field name="Package ID">8-TSSOP</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="AD8220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D82063</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>ICL7660S A</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.intersil.com/content/dam/intersil/documents/icl7/icl7660s-a.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">IC REG SWTCHD CAP INV 45MA 8SOIC</field>
+        <field name="MFN">Intersil</field>
+        <field name="Package ID">8-SOIC</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">ICL7660AIBAZA</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ICL7660S,A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8256E</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>CONN_01X08</value>
+      <footprint>3ML_Footprint_Library:1935226</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935226.pdf</datasheet>
+      <fields>
+        <field name="MPN">1935226</field>
+        <field name="MFN">Phoenix Contact</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">8 Position Wire to Board Terminal Block Horizontal with Board 0.197" (5.00mm) Through Hole</field>
+        <field name="Package ID">TH</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D82737</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D83552</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">ValueRC0805JR-070RL</field>
+        <field name="MFN">Yageo</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 0.0 OHM JUMPER 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D83D7D</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D85409</tstamp>
+    </comp>
+    <comp ref="C118">
+      <value>1nF HV</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>https://www.johansondielectrics.com/downloads/jdi-product-catalog.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">CAP CER 1000PF 1KV X7R 0805</field>
+        <field name="MFN">Johanson Dielectrics Inc.</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">102R15W102KV4E</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89995</tstamp>
+    </comp>
+    <comp ref="D107">
+      <value>SMBJ20CA</value>
+      <footprint>3ML_Footprint_Library:DO-214AA_Hand_Soldering</footprint>
+      <datasheet>http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="MPN">SMBJ20CALFCT-ND</field>
+        <field name="MFN">Littelfuse Inc</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">TVS Diode</field>
+        <field name="Package ID">DO-214AA</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="TVS_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89DB3</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.vishay.com/docs/60076/php.pdf</datasheet>
+      <fields>
+        <field name="MPN">PHP00805E1000BST1</field>
+        <field name="MFN">Vishay Thin Film</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 100 OHM 0.1% 5/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8A23A</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>54.9</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERA-6AEB5492V</field>
+        <field name="MFN">Panasonic Electronic Company</field>
+        <field name="Characteristics">Valuex</field>
+        <field name="Description">RES SMD 54.9K OHM 0.1% 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8A2D3</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>221K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERA-6AEB2213V</field>
+        <field name="MFN">Panasonic Electronic Corporation</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 220K OHM 0.1% 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8A7E8</tstamp>
+    </comp>
+    <comp ref="JP101">
+      <value>INPUT SELECT</value>
+      <footprint>3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRPB031VWTC-RC</field>
+        <field name="MFN">Sullins Connector Solutions</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">3 Positions Header Unshrouded Connector 0.050" (1.27mm) Surface Mount Gold</field>
+        <field name="Package ID">X</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8ABE8</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D95A7A</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D965F9</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B106KOQNNNG.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL21B106KOQNNNG</field>
+        <field name="MFN">Samsung Electro-Mechanics America Inc.</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D96E2D</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B106KOQNNNG.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL21B106KOQNNNG</field>
+        <field name="MFN">Samsung Electro-Mechanics America Inc.</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D96F9C</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B106KOQNNNG.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL21B106KOQNNNG</field>
+        <field name="MFN">Samsung Electro-Mechanics America Inc.</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D971AB</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">ValueRC0805JR-070RL</field>
+        <field name="MFN">Yageo</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 0.0 OHM JUMPER 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D9753C</tstamp>
+    </comp>
+    <comp ref="TP103">
+      <value>TEST -5V</value>
+      <footprint>3ML_Footprint_Library:Keystone_5000_Test_Point_Mini</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="MPN">5000</field>
+        <field name="MFN">Keystone Electronics</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">TEST POINT PC MINI .040"D RED</field>
+        <field name="Package ID">TH</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D97EF4</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D98FDF</tstamp>
+    </comp>
+    <comp ref="C114">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D87237</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D87D4B</tstamp>
+    </comp>
+    <comp ref="U104">
+      <value>AD8220</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8220.pdf</datasheet>
+      <fields>
+        <field name="MPN">AD8220ARMZ</field>
+        <field name="MFN">Analog Devices Inc</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP</field>
+        <field name="Package ID">8-TSSOP</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="AD8220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D890A8</tstamp>
+    </comp>
+    <comp ref="D108">
+      <value>SMBJ20CA</value>
+      <footprint>3ML_Footprint_Library:DO-214AA_Hand_Soldering</footprint>
+      <datasheet>http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="MPN">SMBJ20CALFCT-ND</field>
+        <field name="MFN">Littelfuse Inc</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">TVS Diode</field>
+        <field name="Package ID">DO-214AA</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="TVS_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89117</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.vishay.com/docs/60076/php.pdf</datasheet>
+      <fields>
+        <field name="MPN">PHP00805E1000BST1</field>
+        <field name="MFN">Vishay Thin Film</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 100 OHM 0.1% 5/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8912C</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>54.9</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERA-6AEB5492V</field>
+        <field name="MFN">Panasonic Electronic Company</field>
+        <field name="Characteristics">Valuex</field>
+        <field name="Description">RES SMD 54.9K OHM 0.1% 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8913A</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>221K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERA-6AEB2213V</field>
+        <field name="MFN">Panasonic Electronic Corporation</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 220K OHM 0.1% 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8914E</tstamp>
+    </comp>
+    <comp ref="JP102">
+      <value>INPUT SELECT</value>
+      <footprint>3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRPB031VWTC-RC</field>
+        <field name="MFN">Sullins Connector Solutions</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">3 Positions Header Unshrouded Connector 0.050" (1.27mm) Surface Mount Gold</field>
+        <field name="Package ID">X</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8915E</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89174</tstamp>
+    </comp>
+    <comp ref="C115">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89182</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89191</tstamp>
+    </comp>
+    <comp ref="U105">
+      <value>AD8220</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8220.pdf</datasheet>
+      <fields>
+        <field name="MPN">AD8220ARMZ</field>
+        <field name="MFN">Analog Devices Inc</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP</field>
+        <field name="Package ID">8-TSSOP</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="AD8220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D895C7</tstamp>
+    </comp>
+    <comp ref="D109">
+      <value>SMBJ20CA</value>
+      <footprint>3ML_Footprint_Library:DO-214AA_Hand_Soldering</footprint>
+      <datasheet>http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="MPN">SMBJ20CALFCT-ND</field>
+        <field name="MFN">Littelfuse Inc</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">TVS Diode</field>
+        <field name="Package ID">DO-214AA</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="TVS_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89636</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.vishay.com/docs/60076/php.pdf</datasheet>
+      <fields>
+        <field name="MPN">PHP00805E1000BST1</field>
+        <field name="MFN">Vishay Thin Film</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 100 OHM 0.1% 5/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8964B</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>54.9</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERA-6AEB5492V</field>
+        <field name="MFN">Panasonic Electronic Company</field>
+        <field name="Characteristics">Valuex</field>
+        <field name="Description">RES SMD 54.9K OHM 0.1% 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89659</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>221K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERA-6AEB2213V</field>
+        <field name="MFN">Panasonic Electronic Corporation</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 220K OHM 0.1% 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8966D</tstamp>
+    </comp>
+    <comp ref="JP103">
+      <value>INPUT SELECT</value>
+      <footprint>3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRPB031VWTC-RC</field>
+        <field name="MFN">Sullins Connector Solutions</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">3 Positions Header Unshrouded Connector 0.050" (1.27mm) Surface Mount Gold</field>
+        <field name="Package ID">X</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8967D</tstamp>
+    </comp>
+    <comp ref="C112">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89693</tstamp>
+    </comp>
+    <comp ref="C116">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D896A1</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D896B0</tstamp>
+    </comp>
+    <comp ref="D110">
+      <value>SMBJ20CA</value>
+      <footprint>3ML_Footprint_Library:DO-214AA_Hand_Soldering</footprint>
+      <datasheet>http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="MPN">SMBJ20CALFCT-ND</field>
+        <field name="MFN">Littelfuse Inc</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">TVS Diode</field>
+        <field name="Package ID">DO-214AA</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="TVS_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8972D</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.vishay.com/docs/60076/php.pdf</datasheet>
+      <fields>
+        <field name="MPN">PHP00805E1000BST1</field>
+        <field name="MFN">Vishay Thin Film</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 100 OHM 0.1% 5/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89742</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>54.9</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERA-6AEB5492V</field>
+        <field name="MFN">Panasonic Electronic Company</field>
+        <field name="Characteristics">Valuex</field>
+        <field name="Description">RES SMD 54.9K OHM 0.1% 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89750</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>221K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERA-6AEB2213V</field>
+        <field name="MFN">Panasonic Electronic Corporation</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 220K OHM 0.1% 1/8W 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89764</tstamp>
+    </comp>
+    <comp ref="JP104">
+      <value>INPUT SELECT</value>
+      <footprint>3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRPB031VWTC-RC</field>
+        <field name="MFN">Sullins Connector Solutions</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">3 Positions Header Unshrouded Connector 0.050" (1.27mm) Surface Mount Gold</field>
+        <field name="Package ID">X</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89774</tstamp>
+    </comp>
+    <comp ref="C113">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8978A</tstamp>
+    </comp>
+    <comp ref="C117">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://catalogs.avx.com/SurfaceMount.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Characteristics">0.1uF 0805 capacitor</field>
+        <field name="Description">0.10µF 50V Ceramic Capacitor X7R 0805</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D89798</tstamp>
+    </comp>
+    <comp ref="D106">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D897A7</tstamp>
+    </comp>
+    <comp ref="TP104">
+      <value>TEST VOUT1</value>
+      <footprint>3ML_Footprint_Library:Keystone_5000_Test_Point_Mini</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="MPN">5000</field>
+        <field name="MFN">Keystone Electronics</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">TEST POINT PC MINI .040"D RED</field>
+        <field name="Package ID">TH</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8BF3E</tstamp>
+    </comp>
+    <comp ref="TP106">
+      <value>TEST IN+</value>
+      <footprint>3ML_Footprint_Library:Keystone_5000_Test_Point_Mini</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="MPN">5000</field>
+        <field name="MFN">Keystone Electronics</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">TEST POINT PC MINI .040"D RED</field>
+        <field name="Package ID">TH</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8DBC5</tstamp>
+    </comp>
+    <comp ref="TP105">
+      <value>TEST IN-</value>
+      <footprint>3ML_Footprint_Library:Keystone_5000_Test_Point_Mini</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="MPN">5000</field>
+        <field name="MFN">Keystone Electronics</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">TEST POINT PC MINI .040"D RED</field>
+        <field name="Package ID">TH</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D8DCD1</tstamp>
+    </comp>
+    <comp ref="LG101">
+      <value>3ML_LOGO</value>
+      <footprint>3ML_Footprint_Library:3ML_LOGO</footprint>
+      <datasheet>X</datasheet>
+      <fields>
+        <field name="MPN">X</field>
+        <field name="MFN">X</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">X</field>
+        <field name="Package ID">X</field>
+        <field name="Source">X</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="3ML_LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D9BA61</tstamp>
+    </comp>
+    <comp ref="ACC101">
+      <value>ACC_?</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_DIN965</footprint>
+      <datasheet>X</datasheet>
+      <fields>
+        <field name="MPN">X</field>
+        <field name="MFN">X</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Mounting Hole M3</field>
+        <field name="Package ID">X</field>
+        <field name="Source">X</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D9BFB7</tstamp>
+    </comp>
+    <comp ref="ACC103">
+      <value>ACC_?</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_DIN965</footprint>
+      <datasheet>X</datasheet>
+      <fields>
+        <field name="MPN">X</field>
+        <field name="MFN">X</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Mounting Hole M3</field>
+        <field name="Package ID">X</field>
+        <field name="Source">X</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D9C882</tstamp>
+    </comp>
+    <comp ref="ACC104">
+      <value>ACC_?</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_DIN965</footprint>
+      <datasheet>X</datasheet>
+      <fields>
+        <field name="MPN">X</field>
+        <field name="MFN">X</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Mounting Hole M3</field>
+        <field name="Package ID">X</field>
+        <field name="Source">X</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D9C980</tstamp>
+    </comp>
+    <comp ref="ACC105">
+      <value>ACC_?</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_DIN965</footprint>
+      <datasheet>X</datasheet>
+      <fields>
+        <field name="MPN">X</field>
+        <field name="MFN">X</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Mounting Hole M3</field>
+        <field name="Package ID">X</field>
+        <field name="Source">X</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D9CA7D</tstamp>
+    </comp>
+    <comp ref="ACC102">
+      <value>ACC_?</value>
+      <footprint>X</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/270_02SVAN_11499.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">CONN JUMPER SHORTING 1.27MM GOLD</field>
+        <field name="MFN">Sullins Connector Solutions</field>
+        <field name="Package ID">X</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">NPB02SVAN-RC</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FA89C</tstamp>
+    </comp>
+    <comp ref="ACC106">
+      <value>ACC_?</value>
+      <footprint>X</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/270_02SVAN_11499.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">CONN JUMPER SHORTING 1.27MM GOLD</field>
+        <field name="MFN">Sullins Connector Solutions</field>
+        <field name="Package ID">X</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">NPB02SVAN-RC</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FB38E</tstamp>
+    </comp>
+    <comp ref="ACC107">
+      <value>ACC_?</value>
+      <footprint>X</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/270_02SVAN_11499.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">CONN JUMPER SHORTING 1.27MM GOLD</field>
+        <field name="MFN">Sullins Connector Solutions</field>
+        <field name="Package ID">X</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">NPB02SVAN-RC</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FB48F</tstamp>
+    </comp>
+    <comp ref="ACC108">
+      <value>ACC_?</value>
+      <footprint>X</footprint>
+      <datasheet>http://www.sullinscorp.com/drawings/270_02SVAN_11499.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">CONN JUMPER SHORTING 1.27MM GOLD</field>
+        <field name="MFN">Sullins Connector Solutions</field>
+        <field name="Package ID">X</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">NPB02SVAN-RC</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FB598</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B106KOQNNNG.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL21B106KOQNNNG</field>
+        <field name="MFN">Samsung Electro-Mechanics America Inc.</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FC915</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B106KOQNNNG.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL21B106KOQNNNG</field>
+        <field name="MFN">Samsung Electro-Mechanics America Inc.</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FD816</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B106KOQNNNG.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL21B106KOQNNNG</field>
+        <field name="MFN">Samsung Electro-Mechanics America Inc.</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FDD84</tstamp>
+    </comp>
+    <comp ref="C122">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B106KOQNNNG.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL21B106KOQNNNG</field>
+        <field name="MFN">Samsung Electro-Mechanics America Inc.</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FE3D9</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>10uF</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <datasheet>http://datasheets.avx.com/F93.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">F931A106KAA</field>
+        <field name="MFN">AVX Corporation</field>
+        <field name="Package ID">1206 (3216 Metric)</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+      </fields>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FF48D</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 1M OHM 5% 1/8W 0805</field>
+        <field name="MFN">Stackpole Electronics Inc.</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">RMCF0805JT1M00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59804289</tstamp>
+    </comp>
+    <comp ref="U106">
+      <value>AD8220</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8220.pdf</datasheet>
+      <fields>
+        <field name="MPN">AD8220ARMZ</field>
+        <field name="MFN">Analog Devices Inc</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP</field>
+        <field name="Package ID">8-TSSOP</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="AD8220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D896BE</tstamp>
+    </comp>
+    <comp ref="D111">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598118D8</tstamp>
+    </comp>
+    <comp ref="D112">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59812304</tstamp>
+    </comp>
+    <comp ref="D114">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59812ED5</tstamp>
+    </comp>
+    <comp ref="D113">
+      <value>D_Schottky_Small_ALT</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NSR0530H-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NSR0530HT1GOSCT-ND</field>
+        <field name="MFN">ON Semiconductor</field>
+        <field name="Characteristics">X</field>
+        <field name="Description">Diode Schottky 30V 500mA (DC) Surface Mount SOD-323</field>
+        <field name="Package ID">SOD-323</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59813B7D</tstamp>
+    </comp>
+    <comp ref="ACC109">
+      <value>ACC_?</value>
+      <footprint>Symbols:OSHW-Logo_11.4x12mm_SilkScreen</footprint>
+      <fields>
+        <field name="Characteristics">Value</field>
+        <field name="Description">Value</field>
+        <field name="MFN">Value</field>
+        <field name="Package ID">Value</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+      </fields>
+      <libsource lib="3ML_LLC_Component_Library" part="ACC_?"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59814E6D</tstamp>
+    </comp>
+    <comp ref="C119">
+      <value>1nF HV</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>https://www.johansondielectrics.com/downloads/jdi-product-catalog.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">CAP CER 1000PF 1KV X7R 0805</field>
+        <field name="MFN">Johanson Dielectrics Inc.</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">102R15W102KV4E</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59826D65</tstamp>
+    </comp>
+    <comp ref="C120">
+      <value>1nF HV</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>https://www.johansondielectrics.com/downloads/jdi-product-catalog.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">CAP CER 1000PF 1KV X7R 0805</field>
+        <field name="MFN">Johanson Dielectrics Inc.</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">102R15W102KV4E</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59826F78</tstamp>
+    </comp>
+    <comp ref="C121">
+      <value>1nF HV</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>https://www.johansondielectrics.com/downloads/jdi-product-catalog.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">CAP CER 1000PF 1KV X7R 0805</field>
+        <field name="MFN">Johanson Dielectrics Inc.</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">102R15W102KV4E</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59827093</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 1M OHM 5% 1/8W 0805</field>
+        <field name="MFN">Stackpole Electronics Inc.</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">RMCF0805JT1M00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59829CB9</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 1M OHM 5% 1/8W 0805</field>
+        <field name="MFN">Stackpole Electronics Inc.</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">RMCF0805JT1M00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59829E84</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Characteristics">X</field>
+        <field name="Description">RES SMD 1M OHM 5% 1/8W 0805</field>
+        <field name="MFN">Stackpole Electronics Inc.</field>
+        <field name="Package ID">0805</field>
+        <field name="Source">Digikey</field>
+        <field name="Critical">Y</field>
+        <field name="Notes">X</field>
+        <field name="Populate">1</field>
+        <field name="MPN">RMCF0805JT1M00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59829FA9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="3ML_LLC_Component_Library" part="3ML_LOGO">
+      <fields>
+        <field name="Reference">LG</field>
+        <field name="Value">3ML_LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="3ML_LLC_Component_Library" part="ACC_?">
+      <description>Accessory </description>
+      <fields>
+        <field name="Reference">ACC</field>
+        <field name="Value">ACC_?</field>
+      </fields>
+    </libpart>
+    <libpart lib="3ML_LLC_Component_Library" part="AD8220">
+      <description>Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-IN" type="input"/>
+        <pin num="2" name="RG" type="input"/>
+        <pin num="3" name="RG" type="input"/>
+        <pin num="4" name="+IN" type="input"/>
+        <pin num="5" name="-VS" type="input"/>
+        <pin num="6" name="REF" type="input"/>
+        <pin num="7" name="VOUT" type="output"/>
+        <pin num="8" name="+VS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <description>Connector, single row, 01x08, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_Small_ALT">
+      <description>Schottky diode, small symbol, alternativ symbol</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="3ML_LLC_Component_Library" part="ICL7660S,A">
+      <description>Charge Pump Switching Regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICL7660S,A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOST" type="input"/>
+        <pin num="2" name="CAP+" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="CAP-" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+        <pin num="6" name="LV" type="input"/>
+        <pin num="7" name="OSC" type="input"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NC_Dual">
+      <description>Dual Jumper, normally closed</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="3ML_LLC_Component_Library" part="MCP3424">
+      <description>MCP3424 4 channel 18bit I2C ADC</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3424</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH1+" type="input"/>
+        <pin num="2" name="CH1-" type="input"/>
+        <pin num="3" name="CH2+" type="input"/>
+        <pin num="4" name="CH2-" type="input"/>
+        <pin num="5" name="VSS" type="input"/>
+        <pin num="6" name="VDD" type="input"/>
+        <pin num="7" name="SDA" type="BiDi"/>
+        <pin num="8" name="SCL" type="input"/>
+        <pin num="9" name="Adr0" type="input"/>
+        <pin num="10" name="Adr1" type="input"/>
+        <pin num="11" name="CH3+" type="input"/>
+        <pin num="12" name="CH3-" type="input"/>
+        <pin num="13" name="CH4+" type="input"/>
+        <pin num="14" name="CH4-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TEST">
+      <description>Testpoint, connection for test equipment</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="3ML_LLC_Component_Library" part="TVS_Small">
+      <description>Transient voltage suppressor diode (bi-directional)</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="3ML_LLC_Component_Library">
+      <uri>/Users/davisjp/OneDrive/Development/rpi-industrial-analog/Hardware Libraries/Components/3ML_LLC_Component_Library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(JP101-Pad3)">
+      <node ref="R107" pin="2"/>
+      <node ref="JP101" pin="3"/>
+    </net>
+    <net code="2" name="Net-(JP101-Pad1)">
+      <node ref="JP101" pin="1"/>
+      <node ref="R115" pin="2"/>
+    </net>
+    <net code="3" name="/AIN2+">
+      <node ref="C119" pin="1"/>
+      <node ref="R116" pin="1"/>
+      <node ref="D108" pin="1"/>
+      <node ref="R112" pin="1"/>
+      <node ref="J102" pin="3"/>
+      <node ref="D104" pin="1"/>
+    </net>
+    <net code="4" name="/AIN2-">
+      <node ref="C119" pin="2"/>
+      <node ref="C115" pin="2"/>
+      <node ref="D104" pin="2"/>
+      <node ref="R104" pin="1"/>
+      <node ref="D108" pin="2"/>
+      <node ref="J102" pin="4"/>
+      <node ref="JP102" pin="2"/>
+      <node ref="U104" pin="1"/>
+    </net>
+    <net code="5" name="/AIN3+">
+      <node ref="C120" pin="1"/>
+      <node ref="D109" pin="1"/>
+      <node ref="R117" pin="1"/>
+      <node ref="D105" pin="1"/>
+      <node ref="R113" pin="1"/>
+      <node ref="J102" pin="5"/>
+    </net>
+    <net code="6" name="/AIN3-">
+      <node ref="D109" pin="2"/>
+      <node ref="J102" pin="6"/>
+      <node ref="JP103" pin="2"/>
+      <node ref="C116" pin="2"/>
+      <node ref="R105" pin="1"/>
+      <node ref="D105" pin="2"/>
+      <node ref="U105" pin="1"/>
+      <node ref="C120" pin="2"/>
+    </net>
+    <net code="7" name="/AIN4+">
+      <node ref="J102" pin="7"/>
+      <node ref="R118" pin="1"/>
+      <node ref="D110" pin="1"/>
+      <node ref="R114" pin="1"/>
+      <node ref="C121" pin="1"/>
+      <node ref="D106" pin="1"/>
+    </net>
+    <net code="8" name="/AIN4-">
+      <node ref="C117" pin="2"/>
+      <node ref="D106" pin="2"/>
+      <node ref="R106" pin="1"/>
+      <node ref="C121" pin="2"/>
+      <node ref="U106" pin="1"/>
+      <node ref="D110" pin="2"/>
+      <node ref="J102" pin="8"/>
+      <node ref="JP104" pin="2"/>
+    </net>
+    <net code="9" name="Net-(JP102-Pad1)">
+      <node ref="R116" pin="2"/>
+      <node ref="JP102" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C115-Pad1)">
+      <node ref="R112" pin="2"/>
+      <node ref="R108" pin="1"/>
+      <node ref="C115" pin="1"/>
+      <node ref="U104" pin="4"/>
+    </net>
+    <net code="11" name="Net-(JP102-Pad3)">
+      <node ref="JP102" pin="3"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="12" name="/CH1+">
+      <node ref="D111" pin="2"/>
+      <node ref="TP104" pin="1"/>
+      <node ref="U103" pin="7"/>
+      <node ref="U101" pin="1"/>
+    </net>
+    <net code="13" name="/CH2+">
+      <node ref="D112" pin="2"/>
+      <node ref="U101" pin="3"/>
+      <node ref="U104" pin="7"/>
+    </net>
+    <net code="14" name="+5V">
+      <node ref="C112" pin="1"/>
+      <node ref="U105" pin="8"/>
+      <node ref="C107" pin="1"/>
+      <node ref="C113" pin="1"/>
+      <node ref="U104" pin="8"/>
+      <node ref="U101" pin="6"/>
+      <node ref="J101" pin="1"/>
+      <node ref="U102" pin="8"/>
+      <node ref="U101" pin="10"/>
+      <node ref="U103" pin="8"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="C110" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="D111" pin="1"/>
+      <node ref="D113" pin="1"/>
+      <node ref="U106" pin="8"/>
+      <node ref="C122" pin="1"/>
+      <node ref="C109" pin="1"/>
+      <node ref="C108" pin="1"/>
+      <node ref="D114" pin="1"/>
+      <node ref="D112" pin="1"/>
+      <node ref="C111" pin="1"/>
+      <node ref="C106" pin="1"/>
+    </net>
+    <net code="15" name="/CH4+">
+      <node ref="D113" pin="2"/>
+      <node ref="U101" pin="13"/>
+      <node ref="U106" pin="7"/>
+    </net>
+    <net code="16" name="/CH3+">
+      <node ref="U105" pin="7"/>
+      <node ref="D114" pin="2"/>
+      <node ref="U101" pin="11"/>
+    </net>
+    <net code="17" name="Net-(R101-Pad1)">
+      <node ref="R101" pin="1"/>
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="18" name="Net-(R102-Pad2)">
+      <node ref="R102" pin="2"/>
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="19" name="/SCL">
+      <node ref="J101" pin="3"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="20" name="/SDA">
+      <node ref="J101" pin="2"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="21" name="-5V">
+      <node ref="U102" pin="5"/>
+      <node ref="U103" pin="5"/>
+      <node ref="D101" pin="2"/>
+      <node ref="C105" pin="1"/>
+      <node ref="TP103" pin="1"/>
+      <node ref="U104" pin="5"/>
+      <node ref="D102" pin="1"/>
+      <node ref="U106" pin="5"/>
+      <node ref="U105" pin="5"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="U104" pin="6"/>
+      <node ref="C122" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="U101" pin="14"/>
+      <node ref="U101" pin="12"/>
+      <node ref="U101" pin="9"/>
+      <node ref="U101" pin="5"/>
+      <node ref="C111" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C113" pin="2"/>
+      <node ref="U105" pin="6"/>
+      <node ref="C112" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="U106" pin="6"/>
+      <node ref="R103" pin="2"/>
+      <node ref="R104" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="R106" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="D102" pin="2"/>
+      <node ref="C110" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="U101" pin="4"/>
+      <node ref="U101" pin="2"/>
+      <node ref="J101" pin="4"/>
+      <node ref="U102" pin="3"/>
+      <node ref="U103" pin="6"/>
+      <node ref="C102" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U106-Pad2)">
+      <node ref="U106" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U106-Pad3)">
+      <node ref="U106" pin="3"/>
+    </net>
+    <net code="25" name="/AIN1-">
+      <node ref="J102" pin="2"/>
+      <node ref="U103" pin="1"/>
+      <node ref="C114" pin="2"/>
+      <node ref="D103" pin="2"/>
+      <node ref="R103" pin="1"/>
+      <node ref="TP105" pin="1"/>
+      <node ref="D107" pin="2"/>
+      <node ref="C118" pin="2"/>
+      <node ref="JP101" pin="2"/>
+    </net>
+    <net code="26" name="Net-(JP103-Pad3)">
+      <node ref="R109" pin="2"/>
+      <node ref="JP103" pin="3"/>
+    </net>
+    <net code="27" name="Net-(JP103-Pad1)">
+      <node ref="JP103" pin="1"/>
+      <node ref="R117" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C116-Pad1)">
+      <node ref="R113" pin="2"/>
+      <node ref="R109" pin="1"/>
+      <node ref="C116" pin="1"/>
+      <node ref="U105" pin="4"/>
+    </net>
+    <net code="29" name="Net-(C117-Pad1)">
+      <node ref="U106" pin="4"/>
+      <node ref="C117" pin="1"/>
+      <node ref="R114" pin="2"/>
+      <node ref="R110" pin="1"/>
+    </net>
+    <net code="30" name="Net-(JP104-Pad3)">
+      <node ref="JP104" pin="3"/>
+      <node ref="R110" pin="2"/>
+    </net>
+    <net code="31" name="Net-(JP104-Pad1)">
+      <node ref="JP104" pin="1"/>
+      <node ref="R118" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C114-Pad1)">
+      <node ref="R107" pin="1"/>
+      <node ref="U103" pin="4"/>
+      <node ref="R111" pin="2"/>
+      <node ref="TP106" pin="1"/>
+      <node ref="C114" pin="1"/>
+    </net>
+    <net code="33" name="Net-(U103-Pad2)">
+      <node ref="U103" pin="2"/>
+    </net>
+    <net code="34" name="Net-(U103-Pad3)">
+      <node ref="U103" pin="3"/>
+    </net>
+    <net code="35" name="/AIN1+">
+      <node ref="D103" pin="1"/>
+      <node ref="J102" pin="1"/>
+      <node ref="R111" pin="1"/>
+      <node ref="R115" pin="1"/>
+      <node ref="C118" pin="1"/>
+      <node ref="D107" pin="1"/>
+    </net>
+    <net code="36" name="Net-(U104-Pad2)">
+      <node ref="U104" pin="2"/>
+    </net>
+    <net code="37" name="Net-(U104-Pad3)">
+      <node ref="U104" pin="3"/>
+    </net>
+    <net code="38" name="Net-(U102-Pad1)">
+      <node ref="U102" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C101-Pad1)">
+      <node ref="U102" pin="2"/>
+      <node ref="C101" pin="1"/>
+    </net>
+    <net code="40" name="Net-(U102-Pad6)">
+      <node ref="U102" pin="6"/>
+    </net>
+    <net code="41" name="Net-(U102-Pad7)">
+      <node ref="U102" pin="7"/>
+    </net>
+    <net code="42" name="Net-(C101-Pad2)">
+      <node ref="C101" pin="2"/>
+      <node ref="D101" pin="1"/>
+      <node ref="U102" pin="4"/>
+    </net>
+    <net code="43" name="Net-(U105-Pad2)">
+      <node ref="U105" pin="2"/>
+    </net>
+    <net code="44" name="Net-(U105-Pad3)">
+      <node ref="U105" pin="3"/>
+    </net>
+  </nets>
+</export>
