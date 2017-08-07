@@ -1,0 +1,3 @@
+[submodule "Hardware Libraries"]
+	path = Hardware Libraries
+	url = https://github.com/davisjp1822/ThreeML-KiCAD-Libraries.git
