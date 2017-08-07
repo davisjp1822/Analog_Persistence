@@ -130,16 +130,17 @@ U 1 1 58D82737
 P 11300 3750
 F 0 "J102" H 11300 4200 50  0000 C CNN
 F 1 "CONN_01X08" V 11400 3750 50  0000 C CNN
-F 2 "3ML_Footprint_Library:1935226" H 11300 3750 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Phoenix-1x8-1935226" H 11300 3750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935226.pdf" H 11300 3750 50  0001 C CNN
-F 4 "1935226" H 11300 3750 60  0001 C CNN "MPN"
-F 5 "Phoenix Contact" H 11300 3750 60  0001 C CNN "MFN"
-F 6 "X" H 11300 3750 60  0001 C CNN "Characteristics"
-F 7 "8 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole" H 11300 3750 60  0001 C CNN "Description"
-F 8 "TH" H 11300 3750 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 11300 3750 60  0001 C CNN "Source"
-F 10 "Y" H 11300 3750 60  0001 C CNN "Critical"
-F 11 "X" H 11300 3750 60  0001 C CNN "Notes"
+F 4 "X" H 11300 3750 60  0001 C CNN "Characteristics"
+F 5 "8 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole" H 11300 3750 60  0001 C CNN "Description"
+F 6 "Phoenix Contact" H 11300 3750 60  0001 C CNN "MFN"
+F 7 "TH" H 11300 3750 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 11300 3750 60  0001 C CNN "Source"
+F 9 "Y" H 11300 3750 60  0001 C CNN "Critical"
+F 10 "X" H 11300 3750 60  0001 C CNN "Notes"
+F 11 "1" H 11300 3750 60  0001 C CNN "Populate"
+F 12 "1935226" H 11300 3750 60  0001 C CNN "MPN"
 	1    11300 3750
 	1    0    0    -1  
 $EndComp
@@ -526,16 +527,17 @@ U 1 1 58D8ABE8
 P 7500 2250
 F 0 "JP101" H 7550 2150 50  0000 L CNN
 F 1 "INPUT SELECT" H 7500 2350 50  0000 C BNN
-F 2 "3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header" H 7500 2250 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Sullins-1x3-Jumper-GRPB031VWTC-RC" H 7500 2250 50  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf" H 7500 2250 50  0001 C CNN
-F 4 "GRPB031VWTC-RC" H 7500 2250 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 7500 2250 60  0001 C CNN "MFN"
-F 6 "X" H 7500 2250 60  0001 C CNN "Characteristics"
-F 7 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 2250 60  0001 C CNN "Description"
-F 8 "X" H 7500 2250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7500 2250 60  0001 C CNN "Source"
-F 10 "Y" H 7500 2250 60  0001 C CNN "Critical"
-F 11 "X" H 7500 2250 60  0001 C CNN "Notes"
+F 4 "X" H 7500 2250 60  0001 C CNN "Characteristics"
+F 5 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 2250 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 7500 2250 60  0001 C CNN "MFN"
+F 7 "X" H 7500 2250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7500 2250 60  0001 C CNN "Source"
+F 9 "Y" H 7500 2250 60  0001 C CNN "Critical"
+F 10 "X" H 7500 2250 60  0001 C CNN "Notes"
+F 11 "1" H 7500 2250 60  0001 C CNN "Populate"
+F 12 "GRPB031VWTC-RC" H 7500 2250 60  0001 C CNN "MPN"
 	1    7500 2250
 	-1   0    0    1   
 $EndComp
@@ -772,14 +774,15 @@ F 0 "U104" H 6200 4200 60  0000 C CNN
 F 1 "AD8220" H 6500 3400 60  0000 C CNN
 F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6500 3700 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8220.pdf" H 6500 3700 60  0001 C CNN
-F 4 "AD8220ARMZ" H 6500 3700 60  0001 C CNN "MPN"
-F 5 "Analog Devices Inc" H 6500 3700 60  0001 C CNN "MFN"
-F 6 "X" H 6500 3700 60  0001 C CNN "Characteristics"
-F 7 "Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP" H 6500 3700 60  0001 C CNN "Description"
-F 8 "8-TSSOP" H 6500 3700 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 6500 3700 60  0001 C CNN "Source"
-F 10 "Y" H 6500 3700 60  0001 C CNN "Critical"
-F 11 "X" H 6500 3700 60  0001 C CNN "Notes"
+F 4 "X" H 6500 3700 60  0001 C CNN "Characteristics"
+F 5 "Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP" H 6500 3700 60  0001 C CNN "Description"
+F 6 "Analog Devices Inc" H 6500 3700 60  0001 C CNN "MFN"
+F 7 "8-TSSOP" H 6500 3700 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 6500 3700 60  0001 C CNN "Source"
+F 9 "Y" H 6500 3700 60  0001 C CNN "Critical"
+F 10 "X" H 6500 3700 60  0001 C CNN "Notes"
+F 11 "1" H 6500 3700 60  0001 C CNN "Populate"
+F 12 "AD8220ARMZ" H 6500 3700 60  0001 C CNN "MPN"
 	1    6500 3700
 	-1   0    0    -1  
 $EndComp
@@ -925,16 +928,17 @@ U 1 1 58D8915E
 P 7500 4100
 F 0 "JP102" H 7550 4000 50  0000 L CNN
 F 1 "INPUT SELECT" H 7500 4200 50  0000 C BNN
-F 2 "3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header" H 7500 4100 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Sullins-1x3-Jumper-GRPB031VWTC-RC" H 7500 4100 50  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf" H 7500 4100 50  0001 C CNN
-F 4 "GRPB031VWTC-RC" H 7500 4100 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 7500 4100 60  0001 C CNN "MFN"
-F 6 "X" H 7500 4100 60  0001 C CNN "Characteristics"
-F 7 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 4100 60  0001 C CNN "Description"
-F 8 "X" H 7500 4100 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7500 4100 60  0001 C CNN "Source"
-F 10 "Y" H 7500 4100 60  0001 C CNN "Critical"
-F 11 "X" H 7500 4100 60  0001 C CNN "Notes"
+F 4 "X" H 7500 4100 60  0001 C CNN "Characteristics"
+F 5 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 4100 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 7500 4100 60  0001 C CNN "MFN"
+F 7 "X" H 7500 4100 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7500 4100 60  0001 C CNN "Source"
+F 9 "Y" H 7500 4100 60  0001 C CNN "Critical"
+F 10 "X" H 7500 4100 60  0001 C CNN "Notes"
+F 11 "1" H 7500 4100 60  0001 C CNN "Populate"
+F 12 "GRPB031VWTC-RC" H 7500 4100 60  0001 C CNN "MPN"
 	1    7500 4100
 	-1   0    0    1   
 $EndComp
@@ -1160,16 +1164,17 @@ U 1 1 58D8967D
 P 7500 5950
 F 0 "JP103" H 7550 5850 50  0000 L CNN
 F 1 "INPUT SELECT" H 7500 6050 50  0000 C BNN
-F 2 "3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header" H 7500 5950 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Sullins-1x3-Jumper-GRPB031VWTC-RC" H 7500 5950 50  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf" H 7500 5950 50  0001 C CNN
-F 4 "GRPB031VWTC-RC" H 7500 5950 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 7500 5950 60  0001 C CNN "MFN"
-F 6 "X" H 7500 5950 60  0001 C CNN "Characteristics"
-F 7 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 5950 60  0001 C CNN "Description"
-F 8 "X" H 7500 5950 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7500 5950 60  0001 C CNN "Source"
-F 10 "Y" H 7500 5950 60  0001 C CNN "Critical"
-F 11 "X" H 7500 5950 60  0001 C CNN "Notes"
+F 4 "X" H 7500 5950 60  0001 C CNN "Characteristics"
+F 5 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 5950 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 7500 5950 60  0001 C CNN "MFN"
+F 7 "X" H 7500 5950 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7500 5950 60  0001 C CNN "Source"
+F 9 "Y" H 7500 5950 60  0001 C CNN "Critical"
+F 10 "X" H 7500 5950 60  0001 C CNN "Notes"
+F 11 "1" H 7500 5950 60  0001 C CNN "Populate"
+F 12 "GRPB031VWTC-RC" H 7500 5950 60  0001 C CNN "MPN"
 	1    7500 5950
 	-1   0    0    1   
 $EndComp
@@ -1376,16 +1381,17 @@ U 1 1 58D89774
 P 7500 7550
 F 0 "JP104" H 7550 7450 50  0000 L CNN
 F 1 "INPUT SELECT" H 7500 7650 50  0000 C BNN
-F 2 "3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header" H 7500 7550 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Sullins-1x3-Jumper-GRPB031VWTC-RC" H 7500 7550 50  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf" H 7500 7550 50  0001 C CNN
-F 4 "GRPB031VWTC-RC" H 7500 7550 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 7500 7550 60  0001 C CNN "MFN"
-F 6 "X" H 7500 7550 60  0001 C CNN "Characteristics"
-F 7 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 7550 60  0001 C CNN "Description"
-F 8 "X" H 7500 7550 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7500 7550 60  0001 C CNN "Source"
-F 10 "Y" H 7500 7550 60  0001 C CNN "Critical"
-F 11 "X" H 7500 7550 60  0001 C CNN "Notes"
+F 4 "X" H 7500 7550 60  0001 C CNN "Characteristics"
+F 5 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 7550 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 7500 7550 60  0001 C CNN "MFN"
+F 7 "X" H 7500 7550 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7500 7550 60  0001 C CNN "Source"
+F 9 "Y" H 7500 7550 60  0001 C CNN "Critical"
+F 10 "X" H 7500 7550 60  0001 C CNN "Notes"
+F 11 "1" H 7500 7550 60  0001 C CNN "Populate"
+F 12 "GRPB031VWTC-RC" H 7500 7550 60  0001 C CNN "MPN"
 	1    7500 7550
 	-1   0    0    1   
 $EndComp

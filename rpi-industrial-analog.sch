@@ -130,16 +130,17 @@ U 1 1 58D82737
 P 11300 3750
 F 0 "J102" H 11300 4200 50  0000 C CNN
 F 1 "CONN_01X08" V 11400 3750 50  0000 C CNN
-F 2 "3ML_Footprint_Library:1935226" H 11300 3750 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Phoenix-1x8-1935226" H 11300 3750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935226.pdf" H 11300 3750 50  0001 C CNN
-F 4 "1935226" H 11300 3750 60  0001 C CNN "MPN"
-F 5 "Phoenix Contact" H 11300 3750 60  0001 C CNN "MFN"
-F 6 "X" H 11300 3750 60  0001 C CNN "Characteristics"
-F 7 "8 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole" H 11300 3750 60  0001 C CNN "Description"
-F 8 "TH" H 11300 3750 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 11300 3750 60  0001 C CNN "Source"
-F 10 "Y" H 11300 3750 60  0001 C CNN "Critical"
-F 11 "X" H 11300 3750 60  0001 C CNN "Notes"
+F 4 "X" H 11300 3750 60  0001 C CNN "Characteristics"
+F 5 "8 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole" H 11300 3750 60  0001 C CNN "Description"
+F 6 "Phoenix Contact" H 11300 3750 60  0001 C CNN "MFN"
+F 7 "TH" H 11300 3750 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 11300 3750 60  0001 C CNN "Source"
+F 9 "Y" H 11300 3750 60  0001 C CNN "Critical"
+F 10 "X" H 11300 3750 60  0001 C CNN "Notes"
+F 11 "1" H 11300 3750 60  0001 C CNN "Populate"
+F 12 "1935226" H 11300 3750 60  0001 C CNN "MPN"
 	1    11300 3750
 	1    0    0    -1  
 $EndComp
@@ -526,16 +527,17 @@ U 1 1 58D8ABE8
 P 7500 2250
 F 0 "JP101" H 7550 2150 50  0000 L CNN
 F 1 "INPUT SELECT" H 7500 2350 50  0000 C BNN
-F 2 "3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header" H 7500 2250 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Sullins-1x3-Jumper-GRPB031VWTC-RC" H 7500 2250 50  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf" H 7500 2250 50  0001 C CNN
-F 4 "GRPB031VWTC-RC" H 7500 2250 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 7500 2250 60  0001 C CNN "MFN"
-F 6 "X" H 7500 2250 60  0001 C CNN "Characteristics"
-F 7 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 2250 60  0001 C CNN "Description"
-F 8 "X" H 7500 2250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7500 2250 60  0001 C CNN "Source"
-F 10 "Y" H 7500 2250 60  0001 C CNN "Critical"
-F 11 "X" H 7500 2250 60  0001 C CNN "Notes"
+F 4 "X" H 7500 2250 60  0001 C CNN "Characteristics"
+F 5 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 2250 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 7500 2250 60  0001 C CNN "MFN"
+F 7 "X" H 7500 2250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7500 2250 60  0001 C CNN "Source"
+F 9 "Y" H 7500 2250 60  0001 C CNN "Critical"
+F 10 "X" H 7500 2250 60  0001 C CNN "Notes"
+F 11 "1" H 7500 2250 60  0001 C CNN "Populate"
+F 12 "GRPB031VWTC-RC" H 7500 2250 60  0001 C CNN "MPN"
 	1    7500 2250
 	-1   0    0    1   
 $EndComp
@@ -692,16 +694,17 @@ U 1 1 58D97EF4
 P 3800 6250
 F 0 "TP103" H 3800 6550 50  0000 C BNN
 F 1 "TEST -5V" H 3800 6500 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Keystone_5000_Test_Point_Mini" H 3800 6250 50  0001 C CNN
+F 2 "3ML_Test_Points:Keystone_5000_Test_Point_Mini" H 3800 6250 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 3800 6250 50  0001 C CNN
-F 4 "5000" H 3800 6250 60  0001 C CNN "MPN"
-F 5 "Keystone Electronics" H 3800 6250 60  0001 C CNN "MFN"
-F 6 "X" H 3800 6250 60  0001 C CNN "Characteristics"
-F 7 "TEST POINT PC MINI .040\"D RED" H 3800 6250 60  0001 C CNN "Description"
-F 8 "TH" H 3800 6250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 3800 6250 60  0001 C CNN "Source"
-F 10 "Y" H 3800 6250 60  0001 C CNN "Critical"
-F 11 "X" H 3800 6250 60  0001 C CNN "Notes"
+F 4 "X" H 3800 6250 60  0001 C CNN "Characteristics"
+F 5 "TEST POINT PC MINI .040\"D RED" H 3800 6250 60  0001 C CNN "Description"
+F 6 "Keystone Electronics" H 3800 6250 60  0001 C CNN "MFN"
+F 7 "TH" H 3800 6250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 3800 6250 60  0001 C CNN "Source"
+F 9 "Y" H 3800 6250 60  0001 C CNN "Critical"
+F 10 "X" H 3800 6250 60  0001 C CNN "Notes"
+F 11 "1" H 3800 6250 60  0001 C CNN "Populate"
+F 12 "5000" H 3800 6250 60  0001 C CNN "MPN"
 	1    3800 6250
 	1    0    0    -1  
 $EndComp
@@ -926,16 +929,17 @@ U 1 1 58D8915E
 P 7500 4100
 F 0 "JP102" H 7550 4000 50  0000 L CNN
 F 1 "INPUT SELECT" H 7500 4200 50  0000 C BNN
-F 2 "3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header" H 7500 4100 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Sullins-1x3-Jumper-GRPB031VWTC-RC" H 7500 4100 50  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf" H 7500 4100 50  0001 C CNN
-F 4 "GRPB031VWTC-RC" H 7500 4100 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 7500 4100 60  0001 C CNN "MFN"
-F 6 "X" H 7500 4100 60  0001 C CNN "Characteristics"
-F 7 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 4100 60  0001 C CNN "Description"
-F 8 "X" H 7500 4100 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7500 4100 60  0001 C CNN "Source"
-F 10 "Y" H 7500 4100 60  0001 C CNN "Critical"
-F 11 "X" H 7500 4100 60  0001 C CNN "Notes"
+F 4 "X" H 7500 4100 60  0001 C CNN "Characteristics"
+F 5 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 4100 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 7500 4100 60  0001 C CNN "MFN"
+F 7 "X" H 7500 4100 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7500 4100 60  0001 C CNN "Source"
+F 9 "Y" H 7500 4100 60  0001 C CNN "Critical"
+F 10 "X" H 7500 4100 60  0001 C CNN "Notes"
+F 11 "1" H 7500 4100 60  0001 C CNN "Populate"
+F 12 "GRPB031VWTC-RC" H 7500 4100 60  0001 C CNN "MPN"
 	1    7500 4100
 	-1   0    0    1   
 $EndComp
@@ -1161,16 +1165,17 @@ U 1 1 58D8967D
 P 7500 5950
 F 0 "JP103" H 7550 5850 50  0000 L CNN
 F 1 "INPUT SELECT" H 7500 6050 50  0000 C BNN
-F 2 "3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header" H 7500 5950 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Sullins-1x3-Jumper-GRPB031VWTC-RC" H 7500 5950 50  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf" H 7500 5950 50  0001 C CNN
-F 4 "GRPB031VWTC-RC" H 7500 5950 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 7500 5950 60  0001 C CNN "MFN"
-F 6 "X" H 7500 5950 60  0001 C CNN "Characteristics"
-F 7 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 5950 60  0001 C CNN "Description"
-F 8 "X" H 7500 5950 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7500 5950 60  0001 C CNN "Source"
-F 10 "Y" H 7500 5950 60  0001 C CNN "Critical"
-F 11 "X" H 7500 5950 60  0001 C CNN "Notes"
+F 4 "X" H 7500 5950 60  0001 C CNN "Characteristics"
+F 5 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 5950 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 7500 5950 60  0001 C CNN "MFN"
+F 7 "X" H 7500 5950 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7500 5950 60  0001 C CNN "Source"
+F 9 "Y" H 7500 5950 60  0001 C CNN "Critical"
+F 10 "X" H 7500 5950 60  0001 C CNN "Notes"
+F 11 "1" H 7500 5950 60  0001 C CNN "Populate"
+F 12 "GRPB031VWTC-RC" H 7500 5950 60  0001 C CNN "MPN"
 	1    7500 5950
 	-1   0    0    1   
 $EndComp
@@ -1377,16 +1382,17 @@ U 1 1 58D89774
 P 7500 7550
 F 0 "JP104" H 7550 7450 50  0000 L CNN
 F 1 "INPUT SELECT" H 7500 7650 50  0000 C BNN
-F 2 "3ML_Footprint_Library:GRPB031VWTC-RC_3pos_Header" H 7500 7550 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Sullins-1x3-Jumper-GRPB031VWTC-RC" H 7500 7550 50  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/84_GRPB___1VWT_-RC,_10962-E.pdf" H 7500 7550 50  0001 C CNN
-F 4 "GRPB031VWTC-RC" H 7500 7550 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 7500 7550 60  0001 C CNN "MFN"
-F 6 "X" H 7500 7550 60  0001 C CNN "Characteristics"
-F 7 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 7550 60  0001 C CNN "Description"
-F 8 "X" H 7500 7550 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7500 7550 60  0001 C CNN "Source"
-F 10 "Y" H 7500 7550 60  0001 C CNN "Critical"
-F 11 "X" H 7500 7550 60  0001 C CNN "Notes"
+F 4 "X" H 7500 7550 60  0001 C CNN "Characteristics"
+F 5 "3 Positions Header Unshrouded Connector 0.050\" (1.27mm) Surface Mount Gold" H 7500 7550 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 7500 7550 60  0001 C CNN "MFN"
+F 7 "X" H 7500 7550 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7500 7550 60  0001 C CNN "Source"
+F 9 "Y" H 7500 7550 60  0001 C CNN "Critical"
+F 10 "X" H 7500 7550 60  0001 C CNN "Notes"
+F 11 "1" H 7500 7550 60  0001 C CNN "Populate"
+F 12 "GRPB031VWTC-RC" H 7500 7550 60  0001 C CNN "MPN"
 	1    7500 7550
 	-1   0    0    1   
 $EndComp
@@ -1457,16 +1463,17 @@ U 1 1 58D8BF3E
 P 5850 1250
 F 0 "TP104" H 5850 1550 50  0000 C BNN
 F 1 "TEST VOUT1" H 5850 1500 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Keystone_5000_Test_Point_Mini" H 5850 1250 50  0001 C CNN
+F 2 "3ML_Test_Points:Keystone_5000_Test_Point_Mini" H 5850 1250 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 5850 1250 50  0001 C CNN
-F 4 "5000" H 5850 1250 60  0001 C CNN "MPN"
-F 5 "Keystone Electronics" H 5850 1250 60  0001 C CNN "MFN"
-F 6 "X" H 5850 1250 60  0001 C CNN "Characteristics"
-F 7 "TEST POINT PC MINI .040\"D RED" H 5850 1250 60  0001 C CNN "Description"
-F 8 "TH" H 5850 1250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 5850 1250 60  0001 C CNN "Source"
-F 10 "Y" H 5850 1250 60  0001 C CNN "Critical"
-F 11 "X" H 5850 1250 60  0001 C CNN "Notes"
+F 4 "X" H 5850 1250 60  0001 C CNN "Characteristics"
+F 5 "TEST POINT PC MINI .040\"D RED" H 5850 1250 60  0001 C CNN "Description"
+F 6 "Keystone Electronics" H 5850 1250 60  0001 C CNN "MFN"
+F 7 "TH" H 5850 1250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 5850 1250 60  0001 C CNN "Source"
+F 9 "Y" H 5850 1250 60  0001 C CNN "Critical"
+F 10 "X" H 5850 1250 60  0001 C CNN "Notes"
+F 11 "1" H 5850 1250 60  0001 C CNN "Populate"
+F 12 "5000" H 5850 1250 60  0001 C CNN "MPN"
 	1    5850 1250
 	1    0    0    -1  
 $EndComp
@@ -1476,16 +1483,17 @@ U 1 1 58D8DBC5
 P 7050 1200
 F 0 "TP106" H 7050 1500 50  0000 C BNN
 F 1 "TEST IN+" H 7050 1450 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Keystone_5000_Test_Point_Mini" H 7050 1200 50  0001 C CNN
+F 2 "3ML_Test_Points:Keystone_5000_Test_Point_Mini" H 7050 1200 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 7050 1200 50  0001 C CNN
-F 4 "5000" H 7050 1200 60  0001 C CNN "MPN"
-F 5 "Keystone Electronics" H 7050 1200 60  0001 C CNN "MFN"
-F 6 "X" H 7050 1200 60  0001 C CNN "Characteristics"
-F 7 "TEST POINT PC MINI .040\"D RED" H 7050 1200 60  0001 C CNN "Description"
-F 8 "TH" H 7050 1200 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7050 1200 60  0001 C CNN "Source"
-F 10 "Y" H 7050 1200 60  0001 C CNN "Critical"
-F 11 "X" H 7050 1200 60  0001 C CNN "Notes"
+F 4 "X" H 7050 1200 60  0001 C CNN "Characteristics"
+F 5 "TEST POINT PC MINI .040\"D RED" H 7050 1200 60  0001 C CNN "Description"
+F 6 "Keystone Electronics" H 7050 1200 60  0001 C CNN "MFN"
+F 7 "TH" H 7050 1200 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7050 1200 60  0001 C CNN "Source"
+F 9 "Y" H 7050 1200 60  0001 C CNN "Critical"
+F 10 "X" H 7050 1200 60  0001 C CNN "Notes"
+F 11 "1" H 7050 1200 60  0001 C CNN "Populate"
+F 12 "5000" H 7050 1200 60  0001 C CNN "MPN"
 	1    7050 1200
 	1    0    0    -1  
 $EndComp
@@ -1495,16 +1503,17 @@ U 1 1 58D8DCD1
 P 6750 2400
 F 0 "TP105" V 6900 2550 50  0000 C BNN
 F 1 "TEST IN-" V 6600 2550 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Keystone_5000_Test_Point_Mini" H 6750 2400 50  0001 C CNN
+F 2 "3ML_Test_Points:Keystone_5000_Test_Point_Mini" H 6750 2400 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 6750 2400 50  0001 C CNN
-F 4 "5000" H 6750 2400 60  0001 C CNN "MPN"
-F 5 "Keystone Electronics" H 6750 2400 60  0001 C CNN "MFN"
-F 6 "X" H 6750 2400 60  0001 C CNN "Characteristics"
-F 7 "TEST POINT PC MINI .040\"D RED" H 6750 2400 60  0001 C CNN "Description"
-F 8 "TH" H 6750 2400 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 6750 2400 60  0001 C CNN "Source"
-F 10 "Y" H 6750 2400 60  0001 C CNN "Critical"
-F 11 "X" H 6750 2400 60  0001 C CNN "Notes"
+F 4 "X" H 6750 2400 60  0001 C CNN "Characteristics"
+F 5 "TEST POINT PC MINI .040\"D RED" H 6750 2400 60  0001 C CNN "Description"
+F 6 "Keystone Electronics" H 6750 2400 60  0001 C CNN "MFN"
+F 7 "TH" H 6750 2400 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 6750 2400 60  0001 C CNN "Source"
+F 9 "Y" H 6750 2400 60  0001 C CNN "Critical"
+F 10 "X" H 6750 2400 60  0001 C CNN "Notes"
+F 11 "1" H 6750 2400 60  0001 C CNN "Populate"
+F 12 "5000" H 6750 2400 60  0001 C CNN "MPN"
 	1    6750 2400
 	0    -1   -1   0   
 $EndComp

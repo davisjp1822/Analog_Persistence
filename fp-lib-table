@@ -1,2 +1,6 @@
 (fp_lib_table
+  (lib (name 3ML_Conn_Headers)(type KiCad)(uri "$(KIPRJMOD)/Hardware Libraries/Footprints/3ML_Conn_Headers.pretty")(options "")(descr ""))
+  (lib (name 3ML_Graphics)(type KiCad)(uri "$(KIPRJMOD)/Hardware Libraries/Footprints/3ML_Graphics.pretty")(options "")(descr ""))
+  (lib (name 3ML_SMD_Generic)(type KiCad)(uri "$(KIPRJMOD)/Hardware Libraries/Footprints/3ML_SMD_Generic.pretty")(options "")(descr ""))
+  (lib (name 3ML_Test_Points)(type KiCad)(uri "$(KIPRJMOD)/Hardware Libraries/Footprints/3ML_Test_Points.pretty")(options "")(descr ""))
 )
