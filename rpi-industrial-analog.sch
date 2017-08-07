@@ -1,6 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:raspberrypi_2_b
-LIBS:3ML_LLC_Component_Library
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,6 +28,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:3ML_AnalogDevices
+LIBS:3ML_Microchip
+LIBS:3ML_Texas_Instruments
 LIBS:rpi-industrial-analog-cache
 EELAYER 25 0
 EELAYER END
@@ -443,21 +444,22 @@ F 12 "102R15W102KV4E" H 8650 1800 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TVS_Small D107
+L D_TVS_ALT D107
 U 1 1 58D89DB3
 P 8350 1750
 F 0 "D107" H 8350 1900 50  0000 C CNN
 F 1 "SMBJ20CA" H 8350 1600 50  0001 C CNN
 F 2 "3ML_Footprint_Library:DO-214AA_Hand_Soldering" H 8350 1750 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf" H 8350 1750 50  0001 C CNN
-F 4 "SMBJ20CALFCT-ND" H 8350 1750 60  0001 C CNN "MPN"
-F 5 "Littelfuse Inc" H 8350 1750 60  0001 C CNN "MFN"
-F 6 "X" H 8350 1750 60  0001 C CNN "Characteristics"
-F 7 "TVS Diode" H 8350 1750 60  0001 C CNN "Description"
-F 8 "DO-214AA" H 8350 1750 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 8350 1750 60  0001 C CNN "Source"
-F 10 "Y" H 8350 1750 60  0001 C CNN "Critical"
-F 11 "X" H 8350 1750 60  0001 C CNN "Notes"
+F 4 "X" H 8350 1750 60  0001 C CNN "Characteristics"
+F 5 "TVS Diode" H 8350 1750 60  0001 C CNN "Description"
+F 6 "Littelfuse Inc" H 8350 1750 60  0001 C CNN "MFN"
+F 7 "DO-214AA" H 8350 1750 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 8350 1750 60  0001 C CNN "Source"
+F 9 "Y" H 8350 1750 60  0001 C CNN "Critical"
+F 10 "X" H 8350 1750 60  0001 C CNN "Notes"
+F 11 "1" H 8350 1750 60  0001 C CNN "Populate"
+F 12 "SMBJ20CALFCT-ND" H 8350 1750 60  0001 C CNN "MPN"
 	1    8350 1750
 	0    1    1    0   
 $EndComp
@@ -770,14 +772,15 @@ F 0 "U104" H 6200 4200 60  0000 C CNN
 F 1 "AD8220" H 6500 3400 60  0000 C CNN
 F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6500 3700 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8220.pdf" H 6500 3700 60  0001 C CNN
-F 4 "AD8220ARMZ" H 6500 3700 60  0001 C CNN "MPN"
-F 5 "Analog Devices Inc" H 6500 3700 60  0001 C CNN "MFN"
-F 6 "X" H 6500 3700 60  0001 C CNN "Characteristics"
-F 7 "Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP" H 6500 3700 60  0001 C CNN "Description"
-F 8 "8-TSSOP" H 6500 3700 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 6500 3700 60  0001 C CNN "Source"
-F 10 "Y" H 6500 3700 60  0001 C CNN "Critical"
-F 11 "X" H 6500 3700 60  0001 C CNN "Notes"
+F 4 "X" H 6500 3700 60  0001 C CNN "Characteristics"
+F 5 "Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-MSOP" H 6500 3700 60  0001 C CNN "Description"
+F 6 "Analog Devices Inc" H 6500 3700 60  0001 C CNN "MFN"
+F 7 "8-TSSOP" H 6500 3700 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 6500 3700 60  0001 C CNN "Source"
+F 9 "Y" H 6500 3700 60  0001 C CNN "Critical"
+F 10 "X" H 6500 3700 60  0001 C CNN "Notes"
+F 11 "1" H 6500 3700 60  0001 C CNN "Populate"
+F 12 "AD8220ARMZ" H 6500 3700 60  0001 C CNN "MPN"
 	1    6500 3700
 	-1   0    0    -1  
 $EndComp
@@ -841,21 +844,22 @@ $EndComp
 NoConn ~ 7000 3550
 NoConn ~ 7000 3700
 $Comp
-L TVS_Small D108
+L D_TVS_ALT D108
 U 1 1 58D89117
 P 8350 3600
 F 0 "D108" H 8350 3750 50  0000 C CNN
 F 1 "SMBJ20CA" H 8350 3450 50  0001 C CNN
 F 2 "3ML_Footprint_Library:DO-214AA_Hand_Soldering" H 8350 3600 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf" H 8350 3600 50  0001 C CNN
-F 4 "SMBJ20CALFCT-ND" H 8350 3600 60  0001 C CNN "MPN"
-F 5 "Littelfuse Inc" H 8350 3600 60  0001 C CNN "MFN"
-F 6 "X" H 8350 3600 60  0001 C CNN "Characteristics"
-F 7 "TVS Diode" H 8350 3600 60  0001 C CNN "Description"
-F 8 "DO-214AA" H 8350 3600 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 8350 3600 60  0001 C CNN "Source"
-F 10 "Y" H 8350 3600 60  0001 C CNN "Critical"
-F 11 "X" H 8350 3600 60  0001 C CNN "Notes"
+F 4 "X" H 8350 3600 60  0001 C CNN "Characteristics"
+F 5 "TVS Diode" H 8350 3600 60  0001 C CNN "Description"
+F 6 "Littelfuse Inc" H 8350 3600 60  0001 C CNN "MFN"
+F 7 "DO-214AA" H 8350 3600 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 8350 3600 60  0001 C CNN "Source"
+F 9 "Y" H 8350 3600 60  0001 C CNN "Critical"
+F 10 "X" H 8350 3600 60  0001 C CNN "Notes"
+F 11 "1" H 8350 3600 60  0001 C CNN "Populate"
+F 12 "SMBJ20CALFCT-ND" H 8350 3600 60  0001 C CNN "MPN"
 	1    8350 3600
 	0    1    1    0   
 $EndComp
@@ -1075,21 +1079,22 @@ $EndComp
 NoConn ~ 7000 5400
 NoConn ~ 7000 5550
 $Comp
-L TVS_Small D109
+L D_TVS_ALT D109
 U 1 1 58D89636
 P 8350 5450
 F 0 "D109" H 8350 5600 50  0000 C CNN
 F 1 "SMBJ20CA" H 8350 5300 50  0001 C CNN
 F 2 "3ML_Footprint_Library:DO-214AA_Hand_Soldering" H 8350 5450 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf" H 8350 5450 50  0001 C CNN
-F 4 "SMBJ20CALFCT-ND" H 8350 5450 60  0001 C CNN "MPN"
-F 5 "Littelfuse Inc" H 8350 5450 60  0001 C CNN "MFN"
-F 6 "X" H 8350 5450 60  0001 C CNN "Characteristics"
-F 7 "TVS Diode" H 8350 5450 60  0001 C CNN "Description"
-F 8 "DO-214AA" H 8350 5450 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 8350 5450 60  0001 C CNN "Source"
-F 10 "Y" H 8350 5450 60  0001 C CNN "Critical"
-F 11 "X" H 8350 5450 60  0001 C CNN "Notes"
+F 4 "X" H 8350 5450 60  0001 C CNN "Characteristics"
+F 5 "TVS Diode" H 8350 5450 60  0001 C CNN "Description"
+F 6 "Littelfuse Inc" H 8350 5450 60  0001 C CNN "MFN"
+F 7 "DO-214AA" H 8350 5450 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 8350 5450 60  0001 C CNN "Source"
+F 9 "Y" H 8350 5450 60  0001 C CNN "Critical"
+F 10 "X" H 8350 5450 60  0001 C CNN "Notes"
+F 11 "1" H 8350 5450 60  0001 C CNN "Populate"
+F 12 "SMBJ20CALFCT-ND" H 8350 5450 60  0001 C CNN "MPN"
 	1    8350 5450
 	0    1    1    0   
 $EndComp
@@ -1290,21 +1295,22 @@ $EndComp
 NoConn ~ 7000 7000
 NoConn ~ 7000 7150
 $Comp
-L TVS_Small D110
+L D_TVS_ALT D110
 U 1 1 58D8972D
 P 8350 7050
 F 0 "D110" H 8350 7200 50  0000 C CNN
 F 1 "SMBJ20CA" H 8350 6900 50  0001 C CNN
 F 2 "3ML_Footprint_Library:DO-214AA_Hand_Soldering" H 8350 7050 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf" H 8350 7050 50  0001 C CNN
-F 4 "SMBJ20CALFCT-ND" H 8350 7050 60  0001 C CNN "MPN"
-F 5 "Littelfuse Inc" H 8350 7050 60  0001 C CNN "MFN"
-F 6 "X" H 8350 7050 60  0001 C CNN "Characteristics"
-F 7 "TVS Diode" H 8350 7050 60  0001 C CNN "Description"
-F 8 "DO-214AA" H 8350 7050 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 8350 7050 60  0001 C CNN "Source"
-F 10 "Y" H 8350 7050 60  0001 C CNN "Critical"
-F 11 "X" H 8350 7050 60  0001 C CNN "Notes"
+F 4 "X" H 8350 7050 60  0001 C CNN "Characteristics"
+F 5 "TVS Diode" H 8350 7050 60  0001 C CNN "Description"
+F 6 "Littelfuse Inc" H 8350 7050 60  0001 C CNN "MFN"
+F 7 "DO-214AA" H 8350 7050 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 8350 7050 60  0001 C CNN "Source"
+F 9 "Y" H 8350 7050 60  0001 C CNN "Critical"
+F 10 "X" H 8350 7050 60  0001 C CNN "Notes"
+F 11 "1" H 8350 7050 60  0001 C CNN "Populate"
+F 12 "SMBJ20CALFCT-ND" H 8350 7050 60  0001 C CNN "MPN"
 	1    8350 7050
 	0    1    1    0   
 $EndComp
@@ -1941,7 +1947,7 @@ Wire Wire Line
 Connection ~ 8650 1550
 Connection ~ 8650 2000
 Wire Wire Line
-	8350 1950 8350 2000
+	8350 1900 8350 2000
 Connection ~ 8350 2000
 Connection ~ 8350 1550
 Wire Wire Line
@@ -2035,7 +2041,7 @@ Wire Wire Line
 Connection ~ 8650 3400
 Connection ~ 8650 3850
 Wire Wire Line
-	8350 3800 8350 3850
+	8350 3750 8350 3850
 Connection ~ 8350 3850
 Connection ~ 8350 3400
 Wire Wire Line
@@ -2106,7 +2112,7 @@ Wire Wire Line
 Connection ~ 8650 5250
 Connection ~ 8650 5700
 Wire Wire Line
-	8350 5650 8350 5700
+	8350 5600 8350 5700
 Connection ~ 8350 5700
 Connection ~ 8350 5250
 Wire Wire Line
@@ -2177,7 +2183,7 @@ Wire Wire Line
 Connection ~ 8650 6850
 Connection ~ 8650 7300
 Wire Wire Line
-	8350 7250 8350 7300
+	8350 7200 8350 7300
 Connection ~ 8350 7300
 Connection ~ 8350 6850
 Wire Wire Line
@@ -2579,4 +2585,12 @@ F 12 "RMCF0805JT1M00" V 7050 7600 60  0001 C CNN "MPN"
 	1    7050 7600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8350 1550 8350 1600
+Wire Wire Line
+	8350 3400 8350 3450
+Wire Wire Line
+	8350 5250 8350 5300
+Wire Wire Line
+	8350 6850 8350 6900
 $EndSCHEMATC
