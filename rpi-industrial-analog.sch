@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:rpi-industrial-analog-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -67,7 +68,7 @@ F 12 "M20-9990445" H 2250 4650 60  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCP3424 U101
+L MCP3424-RESCUE-rpi-industrial-analog U101
 U 1 1 58D81EDC
 P 2250 2850
 F 0 "U101" H 1940 3290 60  0000 C CNN
@@ -1784,14 +1785,15 @@ F 0 "C106" H 1560 5220 50  0000 L CNN
 F 1 "10uF" H 1560 5070 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow" H 1550 5150 50  0001 C CNN
 F 3 "http://datasheets.avx.com/F93.pdf" H 1550 5150 50  0001 C CNN
-F 4 "X" H 1550 5150 60  0001 C CNN "Characteristics"
-F 5 "F931A106KAA" H 1550 5150 60  0001 C CNN "Description"
-F 6 "AVX Corporation" H 1550 5150 60  0001 C CNN "MFN"
-F 7 "1206 (3216 Metric)" H 1550 5150 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 1550 5150 60  0001 C CNN "Source"
-F 9 "Y" H 1550 5150 60  0001 C CNN "Critical"
-F 10 "X" H 1550 5150 60  0001 C CNN "Notes"
-F 11 "1" H 1550 5150 60  0001 C CNN "Populate"
+F 4 "F931A106KAA" H 1550 5150 60  0001 C CNN "MPN"
+F 5 "AVX Corporation" H 1550 5150 60  0001 C CNN "MFN"
+F 6 "X" H 1550 5150 60  0001 C CNN "Characteristics"
+F 7 "F931A106KAA" H 1550 5150 60  0001 C CNN "Description"
+F 8 "1206 (3216 Metric)" H 1550 5150 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 1550 5150 60  0001 C CNN "Source"
+F 10 "Y" H 1550 5150 60  0001 C CNN "Critical"
+F 11 "X" H 1550 5150 60  0001 C CNN "Notes"
+F 12 "1" H 1550 5150 60  0001 C CNN "Populate"
 	1    1550 5150
 	1    0    0    -1  
 $EndComp

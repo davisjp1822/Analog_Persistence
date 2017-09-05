@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:rpi-industrial-analog-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -67,7 +68,7 @@ F 12 "M20-9990445" H 2250 4650 60  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCP3424 U101
+L MCP3424-RESCUE-rpi-industrial-analog U101
 U 1 1 58D81EDC
 P 2250 2850
 F 0 "U101" H 1940 3290 60  0000 C CNN
@@ -694,16 +695,17 @@ U 1 1 58D97EF4
 P 3800 6250
 F 0 "TP103" H 3800 6550 50  0000 C BNN
 F 1 "TEST -5V" H 3800 6500 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Keystone_5000_Test_Point_Mini" H 3800 6250 50  0001 C CNN
+F 2 "3ML_Test_Points:Keystone_5000_Test_Point_Mini" H 3800 6250 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 3800 6250 50  0001 C CNN
-F 4 "5000" H 3800 6250 60  0001 C CNN "MPN"
-F 5 "Keystone Electronics" H 3800 6250 60  0001 C CNN "MFN"
-F 6 "X" H 3800 6250 60  0001 C CNN "Characteristics"
-F 7 "TEST POINT PC MINI .040\"D RED" H 3800 6250 60  0001 C CNN "Description"
-F 8 "TH" H 3800 6250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 3800 6250 60  0001 C CNN "Source"
-F 10 "Y" H 3800 6250 60  0001 C CNN "Critical"
-F 11 "X" H 3800 6250 60  0001 C CNN "Notes"
+F 4 "X" H 3800 6250 60  0001 C CNN "Characteristics"
+F 5 "TEST POINT PC MINI .040\"D RED" H 3800 6250 60  0001 C CNN "Description"
+F 6 "Keystone Electronics" H 3800 6250 60  0001 C CNN "MFN"
+F 7 "TH" H 3800 6250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 3800 6250 60  0001 C CNN "Source"
+F 9 "Y" H 3800 6250 60  0001 C CNN "Critical"
+F 10 "X" H 3800 6250 60  0001 C CNN "Notes"
+F 11 "1" H 3800 6250 60  0001 C CNN "Populate"
+F 12 "5000" H 3800 6250 60  0001 C CNN "MPN"
 	1    3800 6250
 	1    0    0    -1  
 $EndComp
@@ -1462,16 +1464,17 @@ U 1 1 58D8BF3E
 P 5850 1250
 F 0 "TP104" H 5850 1550 50  0000 C BNN
 F 1 "TEST VOUT1" H 5850 1500 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Keystone_5000_Test_Point_Mini" H 5850 1250 50  0001 C CNN
+F 2 "3ML_Test_Points:Keystone_5000_Test_Point_Mini" H 5850 1250 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 5850 1250 50  0001 C CNN
-F 4 "5000" H 5850 1250 60  0001 C CNN "MPN"
-F 5 "Keystone Electronics" H 5850 1250 60  0001 C CNN "MFN"
-F 6 "X" H 5850 1250 60  0001 C CNN "Characteristics"
-F 7 "TEST POINT PC MINI .040\"D RED" H 5850 1250 60  0001 C CNN "Description"
-F 8 "TH" H 5850 1250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 5850 1250 60  0001 C CNN "Source"
-F 10 "Y" H 5850 1250 60  0001 C CNN "Critical"
-F 11 "X" H 5850 1250 60  0001 C CNN "Notes"
+F 4 "X" H 5850 1250 60  0001 C CNN "Characteristics"
+F 5 "TEST POINT PC MINI .040\"D RED" H 5850 1250 60  0001 C CNN "Description"
+F 6 "Keystone Electronics" H 5850 1250 60  0001 C CNN "MFN"
+F 7 "TH" H 5850 1250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 5850 1250 60  0001 C CNN "Source"
+F 9 "Y" H 5850 1250 60  0001 C CNN "Critical"
+F 10 "X" H 5850 1250 60  0001 C CNN "Notes"
+F 11 "1" H 5850 1250 60  0001 C CNN "Populate"
+F 12 "5000" H 5850 1250 60  0001 C CNN "MPN"
 	1    5850 1250
 	1    0    0    -1  
 $EndComp
@@ -1481,16 +1484,17 @@ U 1 1 58D8DBC5
 P 7050 1200
 F 0 "TP106" H 7050 1500 50  0000 C BNN
 F 1 "TEST IN+" H 7050 1450 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Keystone_5000_Test_Point_Mini" H 7050 1200 50  0001 C CNN
+F 2 "3ML_Test_Points:Keystone_5000_Test_Point_Mini" H 7050 1200 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 7050 1200 50  0001 C CNN
-F 4 "5000" H 7050 1200 60  0001 C CNN "MPN"
-F 5 "Keystone Electronics" H 7050 1200 60  0001 C CNN "MFN"
-F 6 "X" H 7050 1200 60  0001 C CNN "Characteristics"
-F 7 "TEST POINT PC MINI .040\"D RED" H 7050 1200 60  0001 C CNN "Description"
-F 8 "TH" H 7050 1200 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 7050 1200 60  0001 C CNN "Source"
-F 10 "Y" H 7050 1200 60  0001 C CNN "Critical"
-F 11 "X" H 7050 1200 60  0001 C CNN "Notes"
+F 4 "X" H 7050 1200 60  0001 C CNN "Characteristics"
+F 5 "TEST POINT PC MINI .040\"D RED" H 7050 1200 60  0001 C CNN "Description"
+F 6 "Keystone Electronics" H 7050 1200 60  0001 C CNN "MFN"
+F 7 "TH" H 7050 1200 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 7050 1200 60  0001 C CNN "Source"
+F 9 "Y" H 7050 1200 60  0001 C CNN "Critical"
+F 10 "X" H 7050 1200 60  0001 C CNN "Notes"
+F 11 "1" H 7050 1200 60  0001 C CNN "Populate"
+F 12 "5000" H 7050 1200 60  0001 C CNN "MPN"
 	1    7050 1200
 	1    0    0    -1  
 $EndComp
@@ -1500,16 +1504,17 @@ U 1 1 58D8DCD1
 P 6750 2400
 F 0 "TP105" V 6900 2550 50  0000 C BNN
 F 1 "TEST IN-" V 6600 2550 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Keystone_5000_Test_Point_Mini" H 6750 2400 50  0001 C CNN
+F 2 "3ML_Test_Points:Keystone_5000_Test_Point_Mini" H 6750 2400 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 6750 2400 50  0001 C CNN
-F 4 "5000" H 6750 2400 60  0001 C CNN "MPN"
-F 5 "Keystone Electronics" H 6750 2400 60  0001 C CNN "MFN"
-F 6 "X" H 6750 2400 60  0001 C CNN "Characteristics"
-F 7 "TEST POINT PC MINI .040\"D RED" H 6750 2400 60  0001 C CNN "Description"
-F 8 "TH" H 6750 2400 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 6750 2400 60  0001 C CNN "Source"
-F 10 "Y" H 6750 2400 60  0001 C CNN "Critical"
-F 11 "X" H 6750 2400 60  0001 C CNN "Notes"
+F 4 "X" H 6750 2400 60  0001 C CNN "Characteristics"
+F 5 "TEST POINT PC MINI .040\"D RED" H 6750 2400 60  0001 C CNN "Description"
+F 6 "Keystone Electronics" H 6750 2400 60  0001 C CNN "MFN"
+F 7 "TH" H 6750 2400 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 6750 2400 60  0001 C CNN "Source"
+F 9 "Y" H 6750 2400 60  0001 C CNN "Critical"
+F 10 "X" H 6750 2400 60  0001 C CNN "Notes"
+F 11 "1" H 6750 2400 60  0001 C CNN "Populate"
+F 12 "5000" H 6750 2400 60  0001 C CNN "MPN"
 	1    6750 2400
 	0    -1   -1   0   
 $EndComp
@@ -1780,14 +1785,15 @@ F 0 "C106" H 1560 5220 50  0000 L CNN
 F 1 "10uF" H 1560 5070 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow" H 1550 5150 50  0001 C CNN
 F 3 "http://datasheets.avx.com/F93.pdf" H 1550 5150 50  0001 C CNN
-F 4 "X" H 1550 5150 60  0001 C CNN "Characteristics"
-F 5 "F931A106KAA" H 1550 5150 60  0001 C CNN "Description"
-F 6 "AVX Corporation" H 1550 5150 60  0001 C CNN "MFN"
-F 7 "1206 (3216 Metric)" H 1550 5150 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 1550 5150 60  0001 C CNN "Source"
-F 9 "Y" H 1550 5150 60  0001 C CNN "Critical"
-F 10 "X" H 1550 5150 60  0001 C CNN "Notes"
-F 11 "1" H 1550 5150 60  0001 C CNN "Populate"
+F 4 "F931A106KAA" H 1550 5150 60  0000 C CNN "MPN"
+F 5 "AVX Corporation" H 1550 5150 60  0001 C CNN "MFN"
+F 6 "X" H 1550 5150 60  0001 C CNN "Characteristics"
+F 7 "F931A106KAA" H 1550 5150 60  0001 C CNN "Description"
+F 8 "1206 (3216 Metric)" H 1550 5150 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 1550 5150 60  0001 C CNN "Source"
+F 10 "Y" H 1550 5150 60  0001 C CNN "Critical"
+F 11 "X" H 1550 5150 60  0001 C CNN "Notes"
+F 12 "1" H 1550 5150 60  0001 C CNN "Populate"
 	1    1550 5150
 	1    0    0    -1  
 $EndComp
